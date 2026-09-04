@@ -1,0 +1,172 @@
+========================================
+   SIMULATION RESULTS  -  PART 1-A
+========================================
+
+OUTCOME           : Battleship SUNK
+Sunk by Escort    : #5
+Escorts Destroyed : 8 / 100
+Battle Duration   : 11.9815 seconds
+
+--- Escort Ships Destroyed by Battleship ---
+
+  Hit #1
+    Escort Index   : #5
+    Distance       : 518.23 m
+    Shell Angle    : 15.28 degrees
+    Shell Velocity : 100.00 m/s
+    Time to Hit    : 5.3722 seconds
+
+  Hit #2
+    Escort Index   : #14
+    Distance       : 414.01 m
+    Shell Angle    : 11.98 degrees
+    Shell Velocity : 100.00 m/s
+    Time to Hit    : 4.2323 seconds
+
+  Hit #3
+    Escort Index   : #33
+    Distance       : 898.66 m
+    Shell Angle    : 30.92 degrees
+    Shell Velocity : 100.00 m/s
+    Time to Hit    : 10.4749 seconds
+
+  Hit #4
+    Escort Index   : #35
+    Distance       : 371.88 m
+    Shell Angle    : 10.70 degrees
+    Shell Velocity : 100.00 m/s
+    Time to Hit    : 3.7846 seconds
+
+  Hit #5
+    Escort Index   : #57
+    Distance       : 710.76 m
+    Shell Angle    : 22.10 degrees
+    Shell Velocity : 100.00 m/s
+    Time to Hit    : 7.6715 seconds
+
+  Hit #6
+    Escort Index   : #76
+    Distance       : 969.40 m
+    Shell Angle    : 35.99 degrees
+    Shell Velocity : 100.00 m/s
+    Time to Hit    : 11.9815 seconds
+
+  Hit #7
+    Escort Index   : #91
+    Distance       : 448.74 m
+    Shell Angle    : 13.06 degrees
+    Shell Velocity : 100.00 m/s
+    Time to Hit    : 4.6066 seconds
+
+  Hit #8
+    Escort Index   : #96
+    Distance       : 656.98 m
+    Shell Angle    : 20.06 degrees
+    Shell Velocity : 100.00 m/s
+    Time to Hit    : 6.9942 seconds
+
+--- Final Battlefield State ---
+
+Battleship : DESTROYED
+
+Escort Ships:
+  #1   [EA]  OPERATIONAL
+  #2   [EA]  OPERATIONAL
+  #3   [EA]  OPERATIONAL
+  #4   [EE]  OPERATIONAL
+  #5   [EA]  DESTROYED
+  #6   [EB]  OPERATIONAL
+  #7   [ED]  OPERATIONAL
+  #8   [EE]  OPERATIONAL
+  #9   [EA]  OPERATIONAL
+  #10  [EA]  OPERATIONAL
+  #11  [EB]  OPERATIONAL
+  #12  [EA]  OPERATIONAL
+  #13  [EC]  OPERATIONAL
+  #14  [EE]  DESTROYED
+  #15  [EB]  OPERATIONAL
+  #16  [EE]  OPERATIONAL
+  #17  [EC]  OPERATIONAL
+  #18  [EB]  OPERATIONAL
+  #19  [ED]  OPERATIONAL
+  #20  [EE]  OPERATIONAL
+  #21  [EA]  OPERATIONAL
+  #22  [EC]  OPERATIONAL
+  #23  [EE]  OPERATIONAL
+  #24  [EA]  OPERATIONAL
+  #25  [EA]  OPERATIONAL
+  #26  [EC]  OPERATIONAL
+  #27  [ED]  OPERATIONAL
+  #28  [EE]  OPERATIONAL
+  #29  [ED]  OPERATIONAL
+  #30  [EB]  OPERATIONAL
+  #31  [EB]  OPERATIONAL
+  #32  [EE]  OPERATIONAL
+  #33  [EC]  DESTROYED
+  #34  [EE]  OPERATIONAL
+  #35  [EC]  DESTROYED
+  #36  [EE]  OPERATIONAL
+  #37  [EA]  OPERATIONAL
+  #38  [EE]  OPERATIONAL
+  #39  [ED]  OPERATIONAL
+  #40  [ED]  OPERATIONAL
+  #41  [EC]  OPERATIONAL
+  #42  [ED]  OPERATIONAL
+  #43  [EB]  OPERATIONAL
+  #44  [ED]  OPERATIONAL
+  #45  [EB]  OPERATIONAL
+  #46  [ED]  OPERATIONAL
+  #47  [EB]  OPERATIONAL
+  #48  [EC]  OPERATIONAL
+  #49  [EE]  OPERATIONAL
+  #50  [EE]  OPERATIONAL
+  #51  [EA]  OPERATIONAL
+  #52  [EE]  OPERATIONAL
+  #53  [EC]  OPERATIONAL
+  #54  [EB]  OPERATIONAL
+  #55  [EE]  OPERATIONAL
+  #56  [EE]  OPERATIONAL
+  #57  [EC]  DESTROYED
+  #58  [ED]  OPERATIONAL
+  #59  [EE]  OPERATIONAL
+  #60  [ED]  OPERATIONAL
+  #61  [ED]  OPERATIONAL
+  #62  [EC]  OPERATIONAL
+  #63  [EA]  OPERATIONAL
+  #64  [EA]  OPERATIONAL
+  #65  [EC]  OPERATIONAL
+  #66  [EE]  OPERATIONAL
+  #67  [EE]  OPERATIONAL
+  #68  [EB]  OPERATIONAL
+  #69  [EA]  OPERATIONAL
+  #70  [ED]  OPERATIONAL
+  #71  [EC]  OPERATIONAL
+  #72  [ED]  OPERATIONAL
+  #73  [EA]  OPERATIONAL
+  #74  [EB]  OPERATIONAL
+  #75  [EE]  OPERATIONAL
+  #76  [EC]  DESTROYED
+  #77  [EB]  OPERATIONAL
+  #78  [EC]  OPERATIONAL
+  #79  [EA]  OPERATIONAL
+  #80  [EE]  OPERATIONAL
+  #81  [EC]  OPERATIONAL
+  #82  [EE]  OPERATIONAL
+  #83  [ED]  OPERATIONAL
+  #84  [EB]  OPERATIONAL
+  #85  [ED]  OPERATIONAL
+  #86  [EA]  OPERATIONAL
+  #87  [EC]  OPERATIONAL
+  #88  [EC]  OPERATIONAL
+  #89  [EE]  OPERATIONAL
+  #90  [EC]  OPERATIONAL
+  #91  [ED]  DESTROYED
+  #92  [EA]  OPERATIONAL
+  #93  [ED]  OPERATIONAL
+  #94  [EC]  OPERATIONAL
+  #95  [EA]  OPERATIONAL
+  #96  [EA]  DESTROYED
+  #97  [EB]  OPERATIONAL
+  #98  [EA]  OPERATIONAL
+  #99  [EB]  OPERATIONAL
+  #100 [EE]  OPERATIONAL
