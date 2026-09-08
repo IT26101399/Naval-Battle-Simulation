@@ -1,0 +1,42 @@
+========== SIMULATION 2 RESULTS ==========
+
+---------- Iteration 1 ----------
+B Position : (2885, 906)
+B Gun Min Angle : 0.0 degrees
+OUTCOME : Battleship SUNK by Escort #21!
+Escorts Destroyed : 33
+  -> Hit Escort #1 | Dist: 968.0 | Angle: 45.0 | V: 97.4 | Flight Time: 14.05s
+  -> Hit Escort #2 | Dist: 3138.6 | Angle: 45.0 | V: 175.5 | Flight Time: 25.30s
+  -> Hit Escort #3 | Dist: 2010.3 | Angle: 45.0 | V: 140.4 | Flight Time: 20.24s
+  -> Hit Escort #4 | Dist: 4057.0 | Angle: 45.0 | V: 199.5 | Flight Time: 28.76s
+  -> Hit Escort #5 | Dist: 1835.5 | Angle: 45.0 | V: 134.2 | Flight Time: 19.34s
+  -> Hit Escort #6 | Dist: 2743.2 | Angle: 45.0 | V: 164.0 | Flight Time: 23.65s
+  -> Hit Escort #8 | Dist: 1237.0 | Angle: 45.0 | V: 110.2 | Flight Time: 15.88s
+  -> Hit Escort #9 | Dist: 3771.2 | Angle: 45.0 | V: 192.3 | Flight Time: 27.73s
+  -> Hit Escort #10 | Dist: 3221.2 | Angle: 45.0 | V: 177.8 | Flight Time: 25.63s
+  -> Hit Escort #11 | Dist: 2759.2 | Angle: 45.0 | V: 164.5 | Flight Time: 23.72s
+  -> Hit Escort #12 | Dist: 3054.4 | Angle: 45.0 | V: 173.1 | Flight Time: 24.95s
+  -> Hit Escort #13 | Dist: 3943.4 | Angle: 45.0 | V: 196.7 | Flight Time: 28.35s
+  -> Hit Escort #14 | Dist: 2224.6 | Angle: 45.0 | V: 147.7 | Flight Time: 21.30s
+  -> Hit Escort #15 | Dist: 2669.5 | Angle: 45.0 | V: 161.8 | Flight Time: 23.33s
+  -> Hit Escort #16 | Dist: 543.5 | Angle: 45.0 | V: 73.0 | Flight Time: 10.53s
+  -> Hit Escort #17 | Dist: 3052.8 | Angle: 45.0 | V: 173.1 | Flight Time: 24.95s
+  -> Hit Escort #18 | Dist: 652.3 | Angle: 45.0 | V: 80.0 | Flight Time: 11.53s
+  -> Hit Escort #19 | Dist: 751.2 | Angle: 45.0 | V: 85.8 | Flight Time: 12.38s
+  -> Hit Escort #20 | Dist: 2254.8 | Angle: 45.0 | V: 148.7 | Flight Time: 21.44s
+  -> Hit Escort #22 | Dist: 2906.7 | Angle: 45.0 | V: 168.9 | Flight Time: 24.34s
+  -> Hit Escort #23 | Dist: 2985.8 | Angle: 45.0 | V: 171.1 | Flight Time: 24.67s
+  -> Hit Escort #24 | Dist: 3862.0 | Angle: 45.0 | V: 194.6 | Flight Time: 28.06s
+  -> Hit Escort #25 | Dist: 1217.3 | Angle: 45.0 | V: 109.3 | Flight Time: 15.75s
+  -> Hit Escort #26 | Dist: 2984.7 | Angle: 45.0 | V: 171.1 | Flight Time: 24.67s
+  -> Hit Escort #27 | Dist: 3641.4 | Angle: 45.0 | V: 189.0 | Flight Time: 27.25s
+  -> Hit Escort #28 | Dist: 2583.9 | Angle: 45.0 | V: 159.2 | Flight Time: 22.95s
+  -> Hit Escort #29 | Dist: 1731.7 | Angle: 45.0 | V: 130.3 | Flight Time: 18.79s
+  -> Hit Escort #30 | Dist: 2036.5 | Angle: 45.0 | V: 141.3 | Flight Time: 20.38s
+  -> Hit Escort #31 | Dist: 3357.0 | Angle: 45.0 | V: 181.5 | Flight Time: 26.16s
+  -> Hit Escort #32 | Dist: 2395.5 | Angle: 45.0 | V: 153.3 | Flight Time: 22.10s
+  -> Hit Escort #33 | Dist: 2344.0 | Angle: 45.0 | V: 151.6 | Flight Time: 21.86s
+  -> Hit Escort #34 | Dist: 705.7 | Angle: 45.0 | V: 83.2 | Flight Time: 11.99s
+  -> Hit Escort #35 | Dist: 3207.4 | Angle: 45.0 | V: 177.4 | Flight Time: 25.57s
+Step Battle Duration: 29.6003 s
+

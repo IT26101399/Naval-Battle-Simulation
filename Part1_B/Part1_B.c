@@ -7,7 +7,7 @@
 
 // =============== CONSTANTS ===============
 #define MAX_ESCORTS 100
-#define MAX_POINTS 100
+#define MAX_POINTS 100 // Maximum path iterations (k)
 #define GRAV 9.81 
 #define PI 3.14159265358979323846
 
@@ -41,7 +41,6 @@ typedef struct {
     int alive;   
 } Escortship;
 
-// Newly added to store the random location points (k )
 typedef struct {
     int x, y;
 } Point;
@@ -67,14 +66,14 @@ int canvasSize = 5000;
 int vMax;
 int noEscort = 1;
 Escortship E_ships[MAX_ESCORTS];
-Escortship original_E_ships[MAX_ESCORTS];
+Escortship original_E_ships[MAX_ESCORTS]; // To reset between Sim 1 and 2
 
 int selectedBType = 0;    
 
 // Part 1-B specific variables
 int k_iterations = 5; 
 int t_jam = 2;        
-double theta_min_B = 20.0;
+double theta_min_B = 20.0; // degrees
 Point b_path[MAX_POINTS];
 
 TypeInfo_E info_ETypes[5] = {
@@ -99,8 +98,7 @@ int num_BTypes = sizeof(info_BTypes) / sizeof(info_BTypes[0]);
 // ============= UTILITY FUNCTIONS ===================
 
 void clearInputBuffer() {
-    int c;
-    while ((c = getchar()) != '\n' && c != EOF);
+    while (getchar() != '\n');
 }
 
 void clearLastLine() {
@@ -137,9 +135,11 @@ void addETypeValues(int vMax) {
 void generateEInstances() {
     for (int i = 0; i < noEscort; i++) {
         E_ships[i] = (Escortship){ i + 1, info_ETypes[genRanIntBetween(0, num_ETypes - 1)], genRanIntBetween(0, canvasSize), genRanIntBetween(0, canvasSize), 1 };
-        original_E_ships[i] = E_ships[i]; 
+        original_E_ships[i] = E_ships[i]; // Backup for Simulation 2
     }
 }
+
+// saveEinstances to a file removed
 
 void generateBPath() {
     for (int i = 0; i < k_iterations; i++) {
@@ -149,52 +149,10 @@ void generateBPath() {
 }
 
 void resetBattlefield() {
+    // Reset E ships to initial state
     for (int i = 0; i < noEscort; i++) {
         E_ships[i] = original_E_ships[i];
     }
-}
-
-int saveEInstancesToFile(){
-    FILE *file_EInstances = fopen("Escort_Instances.txt", "w");
-    if (file_EInstances == NULL) return 1;
-
-    for (int i = 0; i < noEscort; i++) {
-        fprintf(file_EInstances, "Index : %d\n\n", E_ships[i].index);
-        fprintf(file_EInstances, "Notation : %s\n", E_ships[i].typeInfo.typeNotation);
-        fprintf(file_EInstances, "Class : %s\n", E_ships[i].typeInfo.className);
-        fprintf(file_EInstances, "Gun : %s\n", E_ships[i].typeInfo.gunName);
-        fprintf(file_EInstances, "Impact : %.2f\n", E_ships[i].typeInfo.impactpower);
-        fprintf(file_EInstances, "Angle Range : %.2f\n", E_ships[i].typeInfo.angleRange);
-        fprintf(file_EInstances, "Min Angle : %.2f\n", E_ships[i].typeInfo.minAngle);
-        fprintf(file_EInstances, "MaxAngle : %.2f\n", E_ships[i].typeInfo.maxAngle);
-        fprintf(file_EInstances, "Min Bullet Velocity : %d\n", E_ships[i].typeInfo.minBulletVelo);
-        fprintf(file_EInstances, "Max Bullet velocity : %d\n\n", E_ships[i].typeInfo.maxBulletVelo);
-        fprintf(file_EInstances, "X Coordinate : %d\n", E_ships[i].x);
-        fprintf(file_EInstances, "Y Coordinate : %d\n", E_ships[i].y);
-        fprintf(file_EInstances, "is Alive : %d\n", E_ships[i].alive);
-        fprintf(file_EInstances, "-------------------\n\n\n");
-    }
-    fclose(file_EInstances);
-    return 0;
-}
-
-int saveETypeInfoToFile() {
-    FILE *file_ETypeInfo = fopen("E_TypeInfo.txt", "w");
-    if (file_ETypeInfo == NULL) return 1;
-
-    for (int i = 0; i < num_ETypes; i++) {
-        fprintf(file_ETypeInfo, "Notation : %s\n", info_ETypes[i].typeNotation);
-        fprintf(file_ETypeInfo, "Class : %s\n", info_ETypes[i].className);
-        fprintf(file_ETypeInfo, "Gun : %s\n", info_ETypes[i].gunName);
-        fprintf(file_ETypeInfo, "Impact : %.2f\n", info_ETypes[i].impactpower);
-        fprintf(file_ETypeInfo, "Angle Range : %.2f\n", info_ETypes[i].angleRange);
-        fprintf(file_ETypeInfo, "Min Angle : %.2f\n", info_ETypes[i].minAngle);
-        fprintf(file_ETypeInfo, "MaxAngle : %.2f\n", info_ETypes[i].maxAngle);
-        fprintf(file_ETypeInfo, "Min Bullet Velocity : %d\n", info_ETypes[i].minBulletVelo);
-        fprintf(file_ETypeInfo, "Max Bullet velocity : %d\n\n\n", info_ETypes[i].maxBulletVelo);
-    }
-    fclose(file_ETypeInfo);
-    return 0;
 }
 
 // ============= UI & INPUT FUNCTIONS ===================
@@ -208,12 +166,14 @@ void printHeader() {
 
 void configureArena() {
     printf("========== Configure Arena ===========\n\n");
+
     while (true) {
         printf("Enter canvas size (100 - 10000): ");
         if (scanf("%d", &canvasSize) != 1 || canvasSize < 100 || canvasSize > 10000) {
             clearLastLine(); clearInputBuffer();
         } else { break; }
     }
+
     while (true) {
         printf("Enter no. of Escortships (1 - %d): ", MAX_ESCORTS);
         if (scanf("%d", &noEscort) != 1 || noEscort > MAX_ESCORTS || noEscort < 1) {
@@ -317,6 +277,7 @@ int canEscortHitB(int idx, double bx, double by) {
     return dist >= getMinRangeE(idx) && dist <= getMaxRangeE(idx);
 }
 
+// Updated logic to support gun jamming
 void findBFiringParams(double dist, double minAngleAllowed, double *outAngle, double *outVelocity, double *outFlightTime) {
     if (dist <= 0.0001) {
         *outAngle = (45.0 >= minAngleAllowed) ? 45.0 : minAngleAllowed;
@@ -324,7 +285,9 @@ void findBFiringParams(double dist, double minAngleAllowed, double *outAngle, do
         *outFlightTime = 0.0;
         return;
     }
+
     double v45 = sqrt(dist * GRAV);
+
     if (v45 <= (double)vMax) {
         *outAngle = 45.0;
         *outVelocity = v45;
@@ -332,21 +295,26 @@ void findBFiringParams(double dist, double minAngleAllowed, double *outAngle, do
         *outVelocity = (double)vMax;
         double sinVal = (dist * GRAV) / ((double)vMax * (double)vMax);
         if (sinVal > 1.0) sinVal = 1.0;
+        
         double lowAngle = RAD_TO_DEG(asin(sinVal)) / 2.0;
+
+        // If gun is jammed, low trajectory might not be possible. High trajectory must be used.
         if (lowAngle >= minAngleAllowed) {
             *outAngle = lowAngle;
         } else {
-            *outAngle = 90.0 - lowAngle; // High trajectory
         }
     }
+
     *outFlightTime = calculateFlightTime(*outVelocity, *outAngle);
 }
 
 void findEFiringParams(int idx, double dist, double *outAngle, double *outVelocity, double *outFlightTime) {
     TypeInfo_E *info = &E_ships[idx].typeInfo;
+
     if (dist <= 0.0001) {
         *outAngle = info->minAngle; *outVelocity = 0.0; *outFlightTime = 0.0; return;
     }
+
     double step = 0.1;
     for (double a = info->minAngle; a <= info->maxAngle; a += step) {
         double s2a = sin(2.0 * DEG_TO_RAD(a));
@@ -356,6 +324,7 @@ void findEFiringParams(int idx, double dist, double *outAngle, double *outVeloci
             *outAngle = a; *outVelocity = vReq; *outFlightTime = calculateFlightTime(vReq, a); return;
         }
     }
+    
     *outAngle = getOptimalAngle(info->minAngle, info->maxAngle);
     *outVelocity = (double)info->maxBulletVelo;
     *outFlightTime = calculateFlightTime(*outVelocity, *outAngle);
@@ -375,13 +344,18 @@ SimResult simulateBattleStep(double bx, double by, double minAngleAllowedB) {
 
     for (int i = 0; i < noEscort; i++) {
         if (!E_ships[i].alive) continue;
+
         double dist = calculateDistance(bx, by, (double)E_ships[i].x, (double)E_ships[i].y);
+
         if (dist <= maxRangeB) {
             double angle, velocity, flightTime;
             findBFiringParams(dist, minAngleAllowedB, &angle, &velocity, &flightTime);
+
             result.hits[result.escortHitCount] = (HitRecord){ E_ships[i].index, dist, flightTime, angle, velocity };
             result.escortHitCount++;
-            E_ships[i].alive = 0; 
+
+            E_ships[i].alive = 0; // Destroy the escort ship
+
             if (flightTime > maxFlightTime) maxFlightTime = flightTime;
         }
     }
@@ -391,13 +365,15 @@ SimResult simulateBattleStep(double bx, double by, double minAngleAllowedB) {
 
     for (int i = 0; i < noEscort; i++) {
         if (!E_ships[i].alive) continue; 
+
         if (canEscortHitB(i, bx, by)) {
             double dist = calculateDistance(bx, by, (double)E_ships[i].x, (double)E_ships[i].y);
             double angle, velocity, flightTime;
             findEFiringParams(i, dist, &angle, &velocity, &flightTime);
+
             if (earliestEHitTime < 0 || flightTime < earliestEHitTime) {
                 earliestEHitTime = flightTime;
-                sinkingEscort = E_ships[i].index - 1; // get array index
+                sinkingEscort = E_ships[i].index;
             }
         }
     }
@@ -414,184 +390,60 @@ SimResult simulateBattleStep(double bx, double by, double minAngleAllowedB) {
     return result;
 }
 
-// ============= SIMULATION I/O FUNCTIONS (VERBOSE) ===================
+// ============= SIMULATION I/O FUNCTIONS ===================
 
-void saveInitialConditions(int simMode) {
-    char filename[50];
-    sprintf(filename, "Initial_Conditions_Sim%d.txt", simMode);
-    FILE *file = fopen(filename, "w");
-    if (file == NULL) return;
-
-    fprintf(file, "========== INITIAL BATTLEFIELD CONDITIONS ==========\n\n");
-    fprintf(file, "Simulation Mode : %d\n", simMode);
-    fprintf(file, "Canvas Size : %d x %d\n", canvasSize, canvasSize);
-    fprintf(file, "Number of Escort Ships : %d\n\n", noEscort);
-
-    fprintf(file, "--- Battleship ---\n");
-    fprintf(file, "Name : %s\n", info_BTypes[selectedBType].name);
-    fprintf(file, "Notation : %c\n", info_BTypes[selectedBType].typeNotation);
-    fprintf(file, "Gun : %s\n", info_BTypes[selectedBType].gunName);
-    fprintf(file, "Max Shell Velocity : %d m/s\n", vMax);
-    fprintf(file, "Max Attack Range : %.2f\n\n", getMaxRangeB());
-
-    fprintf(file, "--- Escort Ships ---\n\n");
-    for (int i = 0; i < noEscort; i++) {
-        fprintf(file, "Escort #%d\n", original_E_ships[i].index);
-        fprintf(file, "  Type : %s (%s)\n", original_E_ships[i].typeInfo.typeNotation, original_E_ships[i].typeInfo.className);
-        fprintf(file, "  Gun : %s\n", original_E_ships[i].typeInfo.gunName);
-        fprintf(file, "  Position : (%d, %d)\n", original_E_ships[i].x, original_E_ships[i].y);
-        fprintf(file, "  Impact Power : %.2f\n", original_E_ships[i].typeInfo.impactpower);
-        fprintf(file, "  Angle Range : %.2f - %.2f degrees\n", original_E_ships[i].typeInfo.minAngle, original_E_ships[i].typeInfo.maxAngle);
-        fprintf(file, "  Velocity Range : %d - %d m/s\n", original_E_ships[i].typeInfo.minBulletVelo, original_E_ships[i].typeInfo.maxBulletVelo);
-        fprintf(file, "  Max Attack Range : %.2f\n", getMaxRangeE(i));
-        fprintf(file, "  Min Attack Range : %.2f\n", getMinRangeE(i));
-        fprintf(file, "  Status : Alive\n\n");
-    }
-    fclose(file);
-}
-
-void appendVerboseBattleResults(FILE *file, int step, int bx, int by, double minAngle, SimResult result) {
-    fprintf(file, "========== ITERATION %d ==========\n\n", step + 1);
-    fprintf(file, "Battleship Position : (%d, %d)\n", bx, by);
-    fprintf(file, "Battleship Gun Min Angle Allowed : %.1f degrees\n\n", minAngle);
-    fprintf(file, "Battle Duration : %.4f seconds\n\n", result.battleDuration);
-
-    if (result.battleshipSunk) {
-        fprintf(file, "OUTCOME : Battleship SUNK!\n");
-        fprintf(file, "Sunk by Escort #%d (%s - %s)\n\n",
-                E_ships[result.sunkByEscortIndex].index,
-                E_ships[result.sunkByEscortIndex].typeInfo.typeNotation,
-                E_ships[result.sunkByEscortIndex].typeInfo.className);
-    } else {
-        fprintf(file, "OUTCOME : Battleship SURVIVED!\n\n");
-    }
-
-    fprintf(file, "Escort Ships Destroyed in this iteration: %d\n\n", result.escortHitCount);
-
-    if (result.escortHitCount > 0) {
-        fprintf(file, "--- Hit Details ---\n\n");
-        for (int i = 0; i < result.escortHitCount; i++) {
-            HitRecord hit = result.hits[i];
-            int e_idx = hit.escortIndex - 1; // mapping back to array index
-            fprintf(file, "Hit #%d\n", i + 1);
-            fprintf(file, "  Escort Index : %d\n", E_ships[e_idx].index);
-            fprintf(file, "  Type : %s (%s)\n", E_ships[e_idx].typeInfo.typeNotation, E_ships[e_idx].typeInfo.className);
-            fprintf(file, "  Distance : %.2f\n", hit.distance);
-            fprintf(file, "  Angle Used : %.2f degrees\n", hit.angleUsed);
-            fprintf(file, "  Velocity Used : %.2f m/s\n", hit.velocityUsed);
-            fprintf(file, "  Flight Time : %.4f seconds\n\n", hit.flightTime);
-        }
-    }
-
-    fprintf(file, "\n--- Battlefield Status after Iteration %d ---\n\n", step + 1);
-    fprintf(file, "Battleship : %s\n", result.battleshipSunk ? "SUNK" : "OPERATIONAL");
+void appendStepResultToFile(FILE *file, int step, int bx, int by, double minAngle, SimResult result) {
+    fprintf(file, "---------- Iteration %d ----------\n", step + 1);
+    fprintf(file, "B Position : (%d, %d)\n", bx, by);
+    fprintf(file, "B Gun Min Angle : %.1f degrees\n", minAngle);
     
-    for (int i = 0; i < noEscort; i++) {
-        fprintf(file, "Escort #%d (%s) : %s | Position: (%d, %d)\n",
-                E_ships[i].index, E_ships[i].typeInfo.typeNotation,
-                E_ships[i].alive ? "ALIVE" : "DESTROYED", E_ships[i].x, E_ships[i].y);
-    }
-    fprintf(file, "\n");
-}
-
-void displayVerboseBattleResults(SimResult result, int step, int bx, int by, double minAngle, int simMode) {
-    printf("\n======================================\n");
-    printf("|     SIMULATION %d - ITERATION %d    |\n", simMode, step + 1);
-    printf("======================================\n\n");
-
-    printf("Battleship Position : (%d, %d)\n", bx, by);
-    printf("Gun Min Angle Allowed : %.1f degrees\n", minAngle);
-    printf("Battleship Max Attack Range : %.2f\n\n", getMaxRangeB());
-
     if (result.battleshipSunk) {
-        printf(">>> BATTLESHIP HAS BEEN SUNK! <<<\n\n");
-        printf("Sunk by Escort Ship #%d\n", E_ships[result.sunkByEscortIndex].index);
-        printf("  Type     : %s (%s)\n",
-               E_ships[result.sunkByEscortIndex].typeInfo.typeNotation,
-               E_ships[result.sunkByEscortIndex].typeInfo.className);
-        printf("  Position : (%d, %d)\n\n",
-               E_ships[result.sunkByEscortIndex].x,
-               E_ships[result.sunkByEscortIndex].y);
+        fprintf(file, "OUTCOME : Battleship SUNK by Escort #%d!\n", result.sunkByEscortIndex);
     } else {
-        printf(">>> BATTLESHIP SURVIVED! <<<\n\n");
+        fprintf(file, "OUTCOME : Battleship Survived this step.\n");
     }
 
-    printf("Escort Ships Destroyed : %d\n", result.escortHitCount);
-    printf("Battle Duration        : %.4f seconds\n\n", result.battleDuration);
-
-    if (result.escortHitCount > 0) {
-        printf("--- Escort Ships Hit ---\n\n");
-        for (int i = 0; i < result.escortHitCount; i++) {
-            HitRecord hit = result.hits[i];
-            int e_idx = hit.escortIndex - 1; 
-            printf("  #%d Escort #%d (%s)\n", i + 1, E_ships[e_idx].index, E_ships[e_idx].typeInfo.className);
-            printf("     Distance: %.2f | Angle: %.2f deg | Velocity: %.2f m/s | Time: %.4f s\n",
-                   hit.distance, hit.angleUsed, hit.velocityUsed, hit.flightTime);
-        }
-        printf("\n");
+    fprintf(file, "Escorts Destroyed : %d\n", result.escortHitCount);
+    for (int i = 0; i < result.escortHitCount; i++) {
+        HitRecord h = result.hits[i];
+        fprintf(file, "  -> Hit Escort #%d | Dist: %.1f | Angle: %.1f | V: %.1f | Flight Time: %.2fs\n", 
+                h.escortIndex, h.distance, h.angleUsed, h.velocityUsed, h.flightTime);
     }
-
-    int surviving = 0;
-    for (int i = 0; i < noEscort; i++) {
-        if (E_ships[i].alive) surviving++;
-    }
-
-    if (surviving > 0) {
-        printf("--- Surviving Escort Ships: %d ---\n\n", surviving);
-        for (int i = 0; i < noEscort; i++) {
-            if (E_ships[i].alive) {
-                double dist = calculateDistance((double)bx, (double)by, (double)E_ships[i].x, (double)E_ships[i].y);
-                printf("  Escort #%d (%s) at (%d, %d) | Distance: %.2f",
-                       E_ships[i].index, E_ships[i].typeInfo.className, E_ships[i].x, E_ships[i].y, dist);
-                if (canEscortHitB(i, bx, by)) {
-                    printf(" [CAN reach Battleship]\n");
-                } else {
-                    printf(" [Out of range]\n");
-                }
-            }
-        }
-        printf("\n");
-    }
-
-    printf("--- Battlefield Status after Iteration %d ---\n\n", step + 1);
-    printf("  Battleship : %s | Position: (%d, %d)\n\n", 
-           result.battleshipSunk ? "SUNK" : "OPERATIONAL", bx, by);
-    for (int i = 0; i < noEscort; i++) {
-        printf("  Escort #%d (%s) : %s | Position: (%d, %d)\n",
-               E_ships[i].index, E_ships[i].typeInfo.typeNotation,
-               E_ships[i].alive ? "ALIVE" : "DESTROYED", E_ships[i].x, E_ships[i].y);
-    }
-    printf("\n======================================\n");
+    fprintf(file, "Step Battle Duration: %.4f s\n\n", result.battleDuration);
 }
 
-void runVerboseSimulation(int simMode) {
+void runSimulation(int simMode) {
     char filename[50];
-    sprintf(filename, "Battle_Results_Sim%d.txt", simMode);
+    sprintf(filename, "Simulation_%d_Results.txt", simMode);
     
     FILE *file = fopen(filename, "w");
     if (!file) { printf("Error opening %s\n", filename); return; }
 
-    fprintf(file, "========== SIMULATION %d FULL RESULTS ==========\n\n", simMode);
-    
+    fprintf(file, "========== SIMULATION %d RESULTS ==========\n\n", simMode);
+
     resetBattlefield();
-    saveInitialConditions(simMode);
+    printf("\n--- Running Simulation %d ---\n", simMode);
 
     for (int step = 0; step < k_iterations; step++) {
         int bx = b_path[step].x;
         int by = b_path[step].y;
         
+        // Apply gun jam logic for Simulation 2
         double currentMinAngle = (simMode == 2 && step >= t_jam) ? theta_min_B : 0.0;
 
         SimResult result = simulateBattleStep(bx, by, currentMinAngle);
         
-        displayVerboseBattleResults(result, step, bx, by, currentMinAngle, simMode);
-        appendVerboseBattleResults(file, step, bx, by, currentMinAngle, result);
+        appendStepResultToFile(file, step, bx, by, currentMinAngle, result);
         
+        printf("Iteration %d: %s | Time: %.2fs | Hits: %d\n", 
+               step + 1, result.battleshipSunk ? "SUNK!" : "Survived", 
+               result.battleDuration, result.escortHitCount);
+
         if (result.battleshipSunk) break;
     }
 
     fclose(file);
-    printf("\nResults for Simulation %d saved to '%s'\n", simMode, filename);
+    printf("Results saved to '%s'\n", filename);
 }
 
 // ============= MAIN FUNCTION ========================
@@ -608,18 +460,12 @@ int main() {
     generateEInstances();
     generateBPath();
 
-    saveETypeInfoToFile();
-    saveEInstancesToFile();
+    runSimulation(1); // Normal path Simulation
+    runSimulation(2); // Jammed gun Simulation
 
-    runVerboseSimulation(1); 
-    
-    printf("\nPress Enter to begin Simulation 2 (Gun Jammed)...\n");
-    clearInputBuffer();
-    
-    runVerboseSimulation(2); 
-
-    printf("\nBoth Simulations Complete! Check the text files for detailed logs.\n");
+    printf("\nSimulations Complete! Check the text files for detailed iteration logs.\n");
     printf("Press Enter to exit...");
+    clearInputBuffer();
     getchar();
 
     return 0;
