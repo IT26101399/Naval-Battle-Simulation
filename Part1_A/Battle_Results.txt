@@ -1,0 +1,119 @@
+========== BATTLE SIMULATION RESULTS (Part 1-A) ==========
+
+Battle Duration : 8.8718 seconds
+
+OUTCOME : Battleship SURVIVED!
+
+Escort Ships Destroyed by Battleship : 4 / 70
+
+--- Hit Details ---
+
+Hit #1
+  Escort Index : 21
+  Type : EE (Japanese Kaibokan)
+  Distance : 228.24
+  Angle Used : 45.00 degrees
+  Velocity Used : 47.32 m/s
+  Flight Time : 6.8214 seconds
+
+Hit #2
+  Escort Index : 31
+  Type : EE (Japanese Kaibokan)
+  Distance : 152.40
+  Angle Used : 45.00 degrees
+  Velocity Used : 38.67 m/s
+  Flight Time : 5.5740 seconds
+
+Hit #3
+  Escort Index : 57
+  Type : ED (F-class Escort Ships)
+  Distance : 386.06
+  Angle Used : 45.00 degrees
+  Velocity Used : 61.54 m/s
+  Flight Time : 8.8718 seconds
+
+Hit #4
+  Escort Index : 60
+  Type : ED (F-class Escort Ships)
+  Distance : 362.44
+  Angle Used : 45.00 degrees
+  Velocity Used : 59.63 m/s
+  Flight Time : 8.5960 seconds
+
+
+--- Final Battlefield Status ---
+
+Battleship : OPERATIONAL
+Position : (2214, 3162)
+
+Escort #0 (EC) : ALIVE | Position: (2092, 4737)
+Escort #1 (EE) : ALIVE | Position: (4596, 1302)
+Escort #2 (ED) : ALIVE | Position: (3871, 4745)
+Escort #3 (EA) : ALIVE | Position: (173, 2952)
+Escort #4 (EC) : ALIVE | Position: (3150, 1876)
+Escort #5 (EE) : ALIVE | Position: (1171, 4082)
+Escort #6 (EB) : ALIVE | Position: (2570, 4961)
+Escort #7 (EC) : ALIVE | Position: (1500, 3564)
+Escort #8 (EA) : ALIVE | Position: (3247, 2488)
+Escort #9 (EA) : ALIVE | Position: (4482, 901)
+Escort #10 (EA) : ALIVE | Position: (1417, 2993)
+Escort #11 (EE) : ALIVE | Position: (3433, 3352)
+Escort #12 (EA) : ALIVE | Position: (2494, 2222)
+Escort #13 (EA) : ALIVE | Position: (1366, 3158)
+Escort #14 (EE) : ALIVE | Position: (3794, 2070)
+Escort #15 (EB) : ALIVE | Position: (4379, 4004)
+Escort #16 (EC) : ALIVE | Position: (769, 2336)
+Escort #17 (EC) : ALIVE | Position: (3967, 3837)
+Escort #18 (EE) : ALIVE | Position: (228, 2083)
+Escort #19 (ED) : ALIVE | Position: (2182, 2328)
+Escort #20 (ED) : ALIVE | Position: (184, 3745)
+Escort #21 (EE) : DESTROYED | Position: (2161, 2940)
+Escort #22 (ED) : ALIVE | Position: (1202, 434)
+Escort #23 (ED) : ALIVE | Position: (4226, 2563)
+Escort #24 (EA) : ALIVE | Position: (1725, 1356)
+Escort #25 (EA) : ALIVE | Position: (1101, 1498)
+Escort #26 (EB) : ALIVE | Position: (4559, 3030)
+Escort #27 (EC) : ALIVE | Position: (3739, 1996)
+Escort #28 (EC) : ALIVE | Position: (2246, 2224)
+Escort #29 (EB) : ALIVE | Position: (3241, 168)
+Escort #30 (EC) : ALIVE | Position: (899, 352)
+Escort #31 (EE) : DESTROYED | Position: (2314, 3277)
+Escort #32 (EA) : ALIVE | Position: (2842, 4479)
+Escort #33 (EE) : ALIVE | Position: (592, 4467)
+Escort #34 (EE) : ALIVE | Position: (1501, 1192)
+Escort #35 (EA) : ALIVE | Position: (242, 2293)
+Escort #36 (EC) : ALIVE | Position: (2987, 2614)
+Escort #37 (EC) : ALIVE | Position: (3068, 2115)
+Escort #38 (EE) : ALIVE | Position: (1985, 4362)
+Escort #39 (ED) : ALIVE | Position: (4512, 2602)
+Escort #40 (EE) : ALIVE | Position: (3602, 4265)
+Escort #41 (EB) : ALIVE | Position: (2963, 2341)
+Escort #42 (EC) : ALIVE | Position: (4502, 182)
+Escort #43 (EB) : ALIVE | Position: (2999, 775)
+Escort #44 (EA) : ALIVE | Position: (3297, 3039)
+Escort #45 (EC) : ALIVE | Position: (713, 3281)
+Escort #46 (EC) : ALIVE | Position: (4628, 1267)
+Escort #47 (EA) : ALIVE | Position: (808, 98)
+Escort #48 (EB) : ALIVE | Position: (510, 2083)
+Escort #49 (EA) : ALIVE | Position: (2436, 2357)
+Escort #50 (ED) : ALIVE | Position: (292, 1722)
+Escort #51 (EE) : ALIVE | Position: (4264, 4685)
+Escort #52 (EB) : ALIVE | Position: (1512, 4949)
+Escort #53 (EE) : ALIVE | Position: (3239, 2948)
+Escort #54 (EB) : ALIVE | Position: (4432, 1244)
+Escort #55 (EB) : ALIVE | Position: (2580, 1957)
+Escort #56 (ED) : ALIVE | Position: (3783, 1584)
+Escort #57 (ED) : DESTROYED | Position: (2600, 3155)
+Escort #58 (EB) : ALIVE | Position: (3532, 4428)
+Escort #59 (EB) : ALIVE | Position: (3825, 2626)
+Escort #60 (ED) : DESTROYED | Position: (2482, 2918)
+Escort #61 (ED) : ALIVE | Position: (1167, 2944)
+Escort #62 (EC) : ALIVE | Position: (2192, 4456)
+Escort #63 (EC) : ALIVE | Position: (4163, 2694)
+Escort #64 (EB) : ALIVE | Position: (2671, 2889)
+Escort #65 (EA) : ALIVE | Position: (3455, 468)
+Escort #66 (EE) : ALIVE | Position: (4045, 4251)
+Escort #67 (EC) : ALIVE | Position: (902, 2613)
+Escort #68 (EB) : ALIVE | Position: (3620, 1144)
+Escort #69 (EB) : ALIVE | Position: (4184, 4969)
+
