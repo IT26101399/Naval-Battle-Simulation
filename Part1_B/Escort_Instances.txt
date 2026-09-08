@@ -1,0 +1,1800 @@
+Index : 1
+
+Notation : EC
+Class : Matsu-class Destroyer
+Gun : Type 89 dual-purpose gun
+Impact : 0.07
+Angle Range : 25.00
+Min Angle : 60.82
+MaxAngle : 85.82
+Min Bullet Velocity : 134
+Max Bullet velocity : 193
+
+X Coordinate : 283
+Y Coordinate : 296
+is Alive : 1
+-------------------
+
+
+Index : 2
+
+Notation : EC
+Class : Matsu-class Destroyer
+Gun : Type 89 dual-purpose gun
+Impact : 0.07
+Angle Range : 25.00
+Min Angle : 60.82
+MaxAngle : 85.82
+Min Bullet Velocity : 134
+Max Bullet velocity : 193
+
+X Coordinate : 403
+Y Coordinate : 156
+is Alive : 1
+-------------------
+
+
+Index : 3
+
+Notation : EC
+Class : Matsu-class Destroyer
+Gun : Type 89 dual-purpose gun
+Impact : 0.07
+Angle Range : 25.00
+Min Angle : 60.82
+MaxAngle : 85.82
+Min Bullet Velocity : 134
+Max Bullet velocity : 193
+
+X Coordinate : 11
+Y Coordinate : 450
+is Alive : 1
+-------------------
+
+
+Index : 4
+
+Notation : EE
+Class : Japanese Kaibokan
+Gun : (4.7 inch) naval guns
+Impact : 0.04
+Angle Range : 70.00
+Min Angle : 10.82
+MaxAngle : 80.82
+Min Bullet Velocity : 36
+Max Bullet velocity : 54
+
+X Coordinate : 257
+Y Coordinate : 151
+is Alive : 1
+-------------------
+
+
+Index : 5
+
+Notation : EE
+Class : Japanese Kaibokan
+Gun : (4.7 inch) naval guns
+Impact : 0.04
+Angle Range : 70.00
+Min Angle : 10.82
+MaxAngle : 80.82
+Min Bullet Velocity : 36
+Max Bullet velocity : 54
+
+X Coordinate : 99
+Y Coordinate : 499
+is Alive : 1
+-------------------
+
+
+Index : 6
+
+Notation : EE
+Class : Japanese Kaibokan
+Gun : (4.7 inch) naval guns
+Impact : 0.04
+Angle Range : 70.00
+Min Angle : 10.82
+MaxAngle : 80.82
+Min Bullet Velocity : 36
+Max Bullet velocity : 54
+
+X Coordinate : 186
+Y Coordinate : 395
+is Alive : 1
+-------------------
+
+
+Index : 7
+
+Notation : EE
+Class : Japanese Kaibokan
+Gun : (4.7 inch) naval guns
+Impact : 0.04
+Angle Range : 70.00
+Min Angle : 10.82
+MaxAngle : 80.82
+Min Bullet Velocity : 36
+Max Bullet velocity : 54
+
+X Coordinate : 166
+Y Coordinate : 500
+is Alive : 1
+-------------------
+
+
+Index : 8
+
+Notation : EE
+Class : Japanese Kaibokan
+Gun : (4.7 inch) naval guns
+Impact : 0.04
+Angle Range : 70.00
+Min Angle : 10.82
+MaxAngle : 80.82
+Min Bullet Velocity : 36
+Max Bullet velocity : 54
+
+X Coordinate : 260
+Y Coordinate : 474
+is Alive : 1
+-------------------
+
+
+Index : 9
+
+Notation : EB
+Class : Gabbiano-class Corvette
+Gun : L/47 dual-purpose gun
+Impact : 0.06
+Angle Range : 30.00
+Min Angle : 41.31
+MaxAngle : 71.31
+Min Bullet Velocity : 19
+Max Bullet velocity : 199
+
+X Coordinate : 365
+Y Coordinate : 207
+is Alive : 1
+-------------------
+
+
+Index : 10
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 373
+Y Coordinate : 449
+is Alive : 1
+-------------------
+
+
+Index : 11
+
+Notation : EB
+Class : Gabbiano-class Corvette
+Gun : L/47 dual-purpose gun
+Impact : 0.06
+Angle Range : 30.00
+Min Angle : 41.31
+MaxAngle : 71.31
+Min Bullet Velocity : 19
+Max Bullet velocity : 199
+
+X Coordinate : 439
+Y Coordinate : 232
+is Alive : 1
+-------------------
+
+
+Index : 12
+
+Notation : EB
+Class : Gabbiano-class Corvette
+Gun : L/47 dual-purpose gun
+Impact : 0.06
+Angle Range : 30.00
+Min Angle : 41.31
+MaxAngle : 71.31
+Min Bullet Velocity : 19
+Max Bullet velocity : 199
+
+X Coordinate : 334
+Y Coordinate : 134
+is Alive : 1
+-------------------
+
+
+Index : 13
+
+Notation : EB
+Class : Gabbiano-class Corvette
+Gun : L/47 dual-purpose gun
+Impact : 0.06
+Angle Range : 30.00
+Min Angle : 41.31
+MaxAngle : 71.31
+Min Bullet Velocity : 19
+Max Bullet velocity : 199
+
+X Coordinate : 186
+Y Coordinate : 145
+is Alive : 1
+-------------------
+
+
+Index : 14
+
+Notation : EC
+Class : Matsu-class Destroyer
+Gun : Type 89 dual-purpose gun
+Impact : 0.07
+Angle Range : 25.00
+Min Angle : 60.82
+MaxAngle : 85.82
+Min Bullet Velocity : 134
+Max Bullet velocity : 193
+
+X Coordinate : 447
+Y Coordinate : 149
+is Alive : 1
+-------------------
+
+
+Index : 15
+
+Notation : EE
+Class : Japanese Kaibokan
+Gun : (4.7 inch) naval guns
+Impact : 0.04
+Angle Range : 70.00
+Min Angle : 10.82
+MaxAngle : 80.82
+Min Bullet Velocity : 36
+Max Bullet velocity : 54
+
+X Coordinate : 147
+Y Coordinate : 248
+is Alive : 1
+-------------------
+
+
+Index : 16
+
+Notation : EA
+Class : 1936A-class Destroyer
+Gun : SK C/34 naval gun
+Impact : 0.08
+Angle Range : 20.00
+Min Angle : 2.06
+MaxAngle : 22.06
+Min Bullet Velocity : 221
+Max Bullet velocity : 240
+
+X Coordinate : 362
+Y Coordinate : 181
+is Alive : 1
+-------------------
+
+
+Index : 17
+
+Notation : EE
+Class : Japanese Kaibokan
+Gun : (4.7 inch) naval guns
+Impact : 0.04
+Angle Range : 70.00
+Min Angle : 10.82
+MaxAngle : 80.82
+Min Bullet Velocity : 36
+Max Bullet velocity : 54
+
+X Coordinate : 397
+Y Coordinate : 347
+is Alive : 1
+-------------------
+
+
+Index : 18
+
+Notation : EC
+Class : Matsu-class Destroyer
+Gun : Type 89 dual-purpose gun
+Impact : 0.07
+Angle Range : 25.00
+Min Angle : 60.82
+MaxAngle : 85.82
+Min Bullet Velocity : 134
+Max Bullet velocity : 193
+
+X Coordinate : 29
+Y Coordinate : 353
+is Alive : 1
+-------------------
+
+
+Index : 19
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 439
+Y Coordinate : 218
+is Alive : 1
+-------------------
+
+
+Index : 20
+
+Notation : EE
+Class : Japanese Kaibokan
+Gun : (4.7 inch) naval guns
+Impact : 0.04
+Angle Range : 70.00
+Min Angle : 10.82
+MaxAngle : 80.82
+Min Bullet Velocity : 36
+Max Bullet velocity : 54
+
+X Coordinate : 314
+Y Coordinate : 90
+is Alive : 1
+-------------------
+
+
+Index : 21
+
+Notation : EB
+Class : Gabbiano-class Corvette
+Gun : L/47 dual-purpose gun
+Impact : 0.06
+Angle Range : 30.00
+Min Angle : 41.31
+MaxAngle : 71.31
+Min Bullet Velocity : 19
+Max Bullet velocity : 199
+
+X Coordinate : 370
+Y Coordinate : 275
+is Alive : 1
+-------------------
+
+
+Index : 22
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 468
+Y Coordinate : 355
+is Alive : 1
+-------------------
+
+
+Index : 23
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 222
+Y Coordinate : 40
+is Alive : 1
+-------------------
+
+
+Index : 24
+
+Notation : EE
+Class : Japanese Kaibokan
+Gun : (4.7 inch) naval guns
+Impact : 0.04
+Angle Range : 70.00
+Min Angle : 10.82
+MaxAngle : 80.82
+Min Bullet Velocity : 36
+Max Bullet velocity : 54
+
+X Coordinate : 172
+Y Coordinate : 488
+is Alive : 1
+-------------------
+
+
+Index : 25
+
+Notation : EE
+Class : Japanese Kaibokan
+Gun : (4.7 inch) naval guns
+Impact : 0.04
+Angle Range : 70.00
+Min Angle : 10.82
+MaxAngle : 80.82
+Min Bullet Velocity : 36
+Max Bullet velocity : 54
+
+X Coordinate : 274
+Y Coordinate : 134
+is Alive : 1
+-------------------
+
+
+Index : 26
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 366
+Y Coordinate : 242
+is Alive : 1
+-------------------
+
+
+Index : 27
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 106
+Y Coordinate : 138
+is Alive : 1
+-------------------
+
+
+Index : 28
+
+Notation : EC
+Class : Matsu-class Destroyer
+Gun : Type 89 dual-purpose gun
+Impact : 0.07
+Angle Range : 25.00
+Min Angle : 60.82
+MaxAngle : 85.82
+Min Bullet Velocity : 134
+Max Bullet velocity : 193
+
+X Coordinate : 93
+Y Coordinate : 414
+is Alive : 1
+-------------------
+
+
+Index : 29
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 300
+Y Coordinate : 353
+is Alive : 1
+-------------------
+
+
+Index : 30
+
+Notation : EA
+Class : 1936A-class Destroyer
+Gun : SK C/34 naval gun
+Impact : 0.08
+Angle Range : 20.00
+Min Angle : 2.06
+MaxAngle : 22.06
+Min Bullet Velocity : 221
+Max Bullet velocity : 240
+
+X Coordinate : 213
+Y Coordinate : 413
+is Alive : 1
+-------------------
+
+
+Index : 31
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 75
+Y Coordinate : 282
+is Alive : 1
+-------------------
+
+
+Index : 32
+
+Notation : EB
+Class : Gabbiano-class Corvette
+Gun : L/47 dual-purpose gun
+Impact : 0.06
+Angle Range : 30.00
+Min Angle : 41.31
+MaxAngle : 71.31
+Min Bullet Velocity : 19
+Max Bullet velocity : 199
+
+X Coordinate : 169
+Y Coordinate : 249
+is Alive : 1
+-------------------
+
+
+Index : 33
+
+Notation : EE
+Class : Japanese Kaibokan
+Gun : (4.7 inch) naval guns
+Impact : 0.04
+Angle Range : 70.00
+Min Angle : 10.82
+MaxAngle : 80.82
+Min Bullet Velocity : 36
+Max Bullet velocity : 54
+
+X Coordinate : 144
+Y Coordinate : 218
+is Alive : 1
+-------------------
+
+
+Index : 34
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 10
+Y Coordinate : 390
+is Alive : 1
+-------------------
+
+
+Index : 35
+
+Notation : EC
+Class : Matsu-class Destroyer
+Gun : Type 89 dual-purpose gun
+Impact : 0.07
+Angle Range : 25.00
+Min Angle : 60.82
+MaxAngle : 85.82
+Min Bullet Velocity : 134
+Max Bullet velocity : 193
+
+X Coordinate : 25
+Y Coordinate : 410
+is Alive : 1
+-------------------
+
+
+Index : 36
+
+Notation : EC
+Class : Matsu-class Destroyer
+Gun : Type 89 dual-purpose gun
+Impact : 0.07
+Angle Range : 25.00
+Min Angle : 60.82
+MaxAngle : 85.82
+Min Bullet Velocity : 134
+Max Bullet velocity : 193
+
+X Coordinate : 34
+Y Coordinate : 276
+is Alive : 1
+-------------------
+
+
+Index : 37
+
+Notation : EC
+Class : Matsu-class Destroyer
+Gun : Type 89 dual-purpose gun
+Impact : 0.07
+Angle Range : 25.00
+Min Angle : 60.82
+MaxAngle : 85.82
+Min Bullet Velocity : 134
+Max Bullet velocity : 193
+
+X Coordinate : 225
+Y Coordinate : 382
+is Alive : 1
+-------------------
+
+
+Index : 38
+
+Notation : EA
+Class : 1936A-class Destroyer
+Gun : SK C/34 naval gun
+Impact : 0.08
+Angle Range : 20.00
+Min Angle : 2.06
+MaxAngle : 22.06
+Min Bullet Velocity : 221
+Max Bullet velocity : 240
+
+X Coordinate : 7
+Y Coordinate : 221
+is Alive : 1
+-------------------
+
+
+Index : 39
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 143
+Y Coordinate : 267
+is Alive : 1
+-------------------
+
+
+Index : 40
+
+Notation : EC
+Class : Matsu-class Destroyer
+Gun : Type 89 dual-purpose gun
+Impact : 0.07
+Angle Range : 25.00
+Min Angle : 60.82
+MaxAngle : 85.82
+Min Bullet Velocity : 134
+Max Bullet velocity : 193
+
+X Coordinate : 243
+Y Coordinate : 481
+is Alive : 1
+-------------------
+
+
+Index : 41
+
+Notation : EE
+Class : Japanese Kaibokan
+Gun : (4.7 inch) naval guns
+Impact : 0.04
+Angle Range : 70.00
+Min Angle : 10.82
+MaxAngle : 80.82
+Min Bullet Velocity : 36
+Max Bullet velocity : 54
+
+X Coordinate : 180
+Y Coordinate : 302
+is Alive : 1
+-------------------
+
+
+Index : 42
+
+Notation : EA
+Class : 1936A-class Destroyer
+Gun : SK C/34 naval gun
+Impact : 0.08
+Angle Range : 20.00
+Min Angle : 2.06
+MaxAngle : 22.06
+Min Bullet Velocity : 221
+Max Bullet velocity : 240
+
+X Coordinate : 138
+Y Coordinate : 218
+is Alive : 1
+-------------------
+
+
+Index : 43
+
+Notation : EC
+Class : Matsu-class Destroyer
+Gun : Type 89 dual-purpose gun
+Impact : 0.07
+Angle Range : 25.00
+Min Angle : 60.82
+MaxAngle : 85.82
+Min Bullet Velocity : 134
+Max Bullet velocity : 193
+
+X Coordinate : 451
+Y Coordinate : 362
+is Alive : 1
+-------------------
+
+
+Index : 44
+
+Notation : EA
+Class : 1936A-class Destroyer
+Gun : SK C/34 naval gun
+Impact : 0.08
+Angle Range : 20.00
+Min Angle : 2.06
+MaxAngle : 22.06
+Min Bullet Velocity : 221
+Max Bullet velocity : 240
+
+X Coordinate : 304
+Y Coordinate : 372
+is Alive : 1
+-------------------
+
+
+Index : 45
+
+Notation : EA
+Class : 1936A-class Destroyer
+Gun : SK C/34 naval gun
+Impact : 0.08
+Angle Range : 20.00
+Min Angle : 2.06
+MaxAngle : 22.06
+Min Bullet Velocity : 221
+Max Bullet velocity : 240
+
+X Coordinate : 391
+Y Coordinate : 143
+is Alive : 1
+-------------------
+
+
+Index : 46
+
+Notation : EB
+Class : Gabbiano-class Corvette
+Gun : L/47 dual-purpose gun
+Impact : 0.06
+Angle Range : 30.00
+Min Angle : 41.31
+MaxAngle : 71.31
+Min Bullet Velocity : 19
+Max Bullet velocity : 199
+
+X Coordinate : 358
+Y Coordinate : 177
+is Alive : 1
+-------------------
+
+
+Index : 47
+
+Notation : EE
+Class : Japanese Kaibokan
+Gun : (4.7 inch) naval guns
+Impact : 0.04
+Angle Range : 70.00
+Min Angle : 10.82
+MaxAngle : 80.82
+Min Bullet Velocity : 36
+Max Bullet velocity : 54
+
+X Coordinate : 321
+Y Coordinate : 402
+is Alive : 1
+-------------------
+
+
+Index : 48
+
+Notation : EA
+Class : 1936A-class Destroyer
+Gun : SK C/34 naval gun
+Impact : 0.08
+Angle Range : 20.00
+Min Angle : 2.06
+MaxAngle : 22.06
+Min Bullet Velocity : 221
+Max Bullet velocity : 240
+
+X Coordinate : 415
+Y Coordinate : 156
+is Alive : 1
+-------------------
+
+
+Index : 49
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 422
+Y Coordinate : 299
+is Alive : 1
+-------------------
+
+
+Index : 50
+
+Notation : EE
+Class : Japanese Kaibokan
+Gun : (4.7 inch) naval guns
+Impact : 0.04
+Angle Range : 70.00
+Min Angle : 10.82
+MaxAngle : 80.82
+Min Bullet Velocity : 36
+Max Bullet velocity : 54
+
+X Coordinate : 28
+Y Coordinate : 289
+is Alive : 1
+-------------------
+
+
+Index : 51
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 46
+Y Coordinate : 469
+is Alive : 1
+-------------------
+
+
+Index : 52
+
+Notation : EE
+Class : Japanese Kaibokan
+Gun : (4.7 inch) naval guns
+Impact : 0.04
+Angle Range : 70.00
+Min Angle : 10.82
+MaxAngle : 80.82
+Min Bullet Velocity : 36
+Max Bullet velocity : 54
+
+X Coordinate : 347
+Y Coordinate : 106
+is Alive : 1
+-------------------
+
+
+Index : 53
+
+Notation : EB
+Class : Gabbiano-class Corvette
+Gun : L/47 dual-purpose gun
+Impact : 0.06
+Angle Range : 30.00
+Min Angle : 41.31
+MaxAngle : 71.31
+Min Bullet Velocity : 19
+Max Bullet velocity : 199
+
+X Coordinate : 389
+Y Coordinate : 56
+is Alive : 1
+-------------------
+
+
+Index : 54
+
+Notation : EA
+Class : 1936A-class Destroyer
+Gun : SK C/34 naval gun
+Impact : 0.08
+Angle Range : 20.00
+Min Angle : 2.06
+MaxAngle : 22.06
+Min Bullet Velocity : 221
+Max Bullet velocity : 240
+
+X Coordinate : 148
+Y Coordinate : 107
+is Alive : 1
+-------------------
+
+
+Index : 55
+
+Notation : EA
+Class : 1936A-class Destroyer
+Gun : SK C/34 naval gun
+Impact : 0.08
+Angle Range : 20.00
+Min Angle : 2.06
+MaxAngle : 22.06
+Min Bullet Velocity : 221
+Max Bullet velocity : 240
+
+X Coordinate : 297
+Y Coordinate : 498
+is Alive : 1
+-------------------
+
+
+Index : 56
+
+Notation : EA
+Class : 1936A-class Destroyer
+Gun : SK C/34 naval gun
+Impact : 0.08
+Angle Range : 20.00
+Min Angle : 2.06
+MaxAngle : 22.06
+Min Bullet Velocity : 221
+Max Bullet velocity : 240
+
+X Coordinate : 356
+Y Coordinate : 356
+is Alive : 1
+-------------------
+
+
+Index : 57
+
+Notation : EA
+Class : 1936A-class Destroyer
+Gun : SK C/34 naval gun
+Impact : 0.08
+Angle Range : 20.00
+Min Angle : 2.06
+MaxAngle : 22.06
+Min Bullet Velocity : 221
+Max Bullet velocity : 240
+
+X Coordinate : 437
+Y Coordinate : 423
+is Alive : 1
+-------------------
+
+
+Index : 58
+
+Notation : EA
+Class : 1936A-class Destroyer
+Gun : SK C/34 naval gun
+Impact : 0.08
+Angle Range : 20.00
+Min Angle : 2.06
+MaxAngle : 22.06
+Min Bullet Velocity : 221
+Max Bullet velocity : 240
+
+X Coordinate : 400
+Y Coordinate : 83
+is Alive : 1
+-------------------
+
+
+Index : 59
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 330
+Y Coordinate : 251
+is Alive : 1
+-------------------
+
+
+Index : 60
+
+Notation : EC
+Class : Matsu-class Destroyer
+Gun : Type 89 dual-purpose gun
+Impact : 0.07
+Angle Range : 25.00
+Min Angle : 60.82
+MaxAngle : 85.82
+Min Bullet Velocity : 134
+Max Bullet velocity : 193
+
+X Coordinate : 273
+Y Coordinate : 279
+is Alive : 1
+-------------------
+
+
+Index : 61
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 197
+Y Coordinate : 326
+is Alive : 1
+-------------------
+
+
+Index : 62
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 169
+Y Coordinate : 419
+is Alive : 1
+-------------------
+
+
+Index : 63
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 359
+Y Coordinate : 53
+is Alive : 1
+-------------------
+
+
+Index : 64
+
+Notation : EA
+Class : 1936A-class Destroyer
+Gun : SK C/34 naval gun
+Impact : 0.08
+Angle Range : 20.00
+Min Angle : 2.06
+MaxAngle : 22.06
+Min Bullet Velocity : 221
+Max Bullet velocity : 240
+
+X Coordinate : 410
+Y Coordinate : 201
+is Alive : 1
+-------------------
+
+
+Index : 65
+
+Notation : EB
+Class : Gabbiano-class Corvette
+Gun : L/47 dual-purpose gun
+Impact : 0.06
+Angle Range : 30.00
+Min Angle : 41.31
+MaxAngle : 71.31
+Min Bullet Velocity : 19
+Max Bullet velocity : 199
+
+X Coordinate : 78
+Y Coordinate : 244
+is Alive : 1
+-------------------
+
+
+Index : 66
+
+Notation : EC
+Class : Matsu-class Destroyer
+Gun : Type 89 dual-purpose gun
+Impact : 0.07
+Angle Range : 25.00
+Min Angle : 60.82
+MaxAngle : 85.82
+Min Bullet Velocity : 134
+Max Bullet velocity : 193
+
+X Coordinate : 390
+Y Coordinate : 100
+is Alive : 1
+-------------------
+
+
+Index : 67
+
+Notation : EB
+Class : Gabbiano-class Corvette
+Gun : L/47 dual-purpose gun
+Impact : 0.06
+Angle Range : 30.00
+Min Angle : 41.31
+MaxAngle : 71.31
+Min Bullet Velocity : 19
+Max Bullet velocity : 199
+
+X Coordinate : 378
+Y Coordinate : 36
+is Alive : 1
+-------------------
+
+
+Index : 68
+
+Notation : EA
+Class : 1936A-class Destroyer
+Gun : SK C/34 naval gun
+Impact : 0.08
+Angle Range : 20.00
+Min Angle : 2.06
+MaxAngle : 22.06
+Min Bullet Velocity : 221
+Max Bullet velocity : 240
+
+X Coordinate : 14
+Y Coordinate : 182
+is Alive : 1
+-------------------
+
+
+Index : 69
+
+Notation : EA
+Class : 1936A-class Destroyer
+Gun : SK C/34 naval gun
+Impact : 0.08
+Angle Range : 20.00
+Min Angle : 2.06
+MaxAngle : 22.06
+Min Bullet Velocity : 221
+Max Bullet velocity : 240
+
+X Coordinate : 307
+Y Coordinate : 258
+is Alive : 1
+-------------------
+
+
+Index : 70
+
+Notation : EB
+Class : Gabbiano-class Corvette
+Gun : L/47 dual-purpose gun
+Impact : 0.06
+Angle Range : 30.00
+Min Angle : 41.31
+MaxAngle : 71.31
+Min Bullet Velocity : 19
+Max Bullet velocity : 199
+
+X Coordinate : 145
+Y Coordinate : 31
+is Alive : 1
+-------------------
+
+
+Index : 71
+
+Notation : EB
+Class : Gabbiano-class Corvette
+Gun : L/47 dual-purpose gun
+Impact : 0.06
+Angle Range : 30.00
+Min Angle : 41.31
+MaxAngle : 71.31
+Min Bullet Velocity : 19
+Max Bullet velocity : 199
+
+X Coordinate : 24
+Y Coordinate : 475
+is Alive : 1
+-------------------
+
+
+Index : 72
+
+Notation : EA
+Class : 1936A-class Destroyer
+Gun : SK C/34 naval gun
+Impact : 0.08
+Angle Range : 20.00
+Min Angle : 2.06
+MaxAngle : 22.06
+Min Bullet Velocity : 221
+Max Bullet velocity : 240
+
+X Coordinate : 366
+Y Coordinate : 390
+is Alive : 1
+-------------------
+
+
+Index : 73
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 312
+Y Coordinate : 248
+is Alive : 1
+-------------------
+
+
+Index : 74
+
+Notation : EC
+Class : Matsu-class Destroyer
+Gun : Type 89 dual-purpose gun
+Impact : 0.07
+Angle Range : 25.00
+Min Angle : 60.82
+MaxAngle : 85.82
+Min Bullet Velocity : 134
+Max Bullet velocity : 193
+
+X Coordinate : 61
+Y Coordinate : 404
+is Alive : 1
+-------------------
+
+
+Index : 75
+
+Notation : EB
+Class : Gabbiano-class Corvette
+Gun : L/47 dual-purpose gun
+Impact : 0.06
+Angle Range : 30.00
+Min Angle : 41.31
+MaxAngle : 71.31
+Min Bullet Velocity : 19
+Max Bullet velocity : 199
+
+X Coordinate : 418
+Y Coordinate : 482
+is Alive : 1
+-------------------
+
+
+Index : 76
+
+Notation : EE
+Class : Japanese Kaibokan
+Gun : (4.7 inch) naval guns
+Impact : 0.04
+Angle Range : 70.00
+Min Angle : 10.82
+MaxAngle : 80.82
+Min Bullet Velocity : 36
+Max Bullet velocity : 54
+
+X Coordinate : 18
+Y Coordinate : 117
+is Alive : 1
+-------------------
+
+
+Index : 77
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 220
+Y Coordinate : 241
+is Alive : 1
+-------------------
+
+
+Index : 78
+
+Notation : EC
+Class : Matsu-class Destroyer
+Gun : Type 89 dual-purpose gun
+Impact : 0.07
+Angle Range : 25.00
+Min Angle : 60.82
+MaxAngle : 85.82
+Min Bullet Velocity : 134
+Max Bullet velocity : 193
+
+X Coordinate : 91
+Y Coordinate : 256
+is Alive : 1
+-------------------
+
+
+Index : 79
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 291
+Y Coordinate : 309
+is Alive : 1
+-------------------
+
+
+Index : 80
+
+Notation : EE
+Class : Japanese Kaibokan
+Gun : (4.7 inch) naval guns
+Impact : 0.04
+Angle Range : 70.00
+Min Angle : 10.82
+MaxAngle : 80.82
+Min Bullet Velocity : 36
+Max Bullet velocity : 54
+
+X Coordinate : 496
+Y Coordinate : 454
+is Alive : 1
+-------------------
+
+
+Index : 81
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 226
+Y Coordinate : 225
+is Alive : 1
+-------------------
+
+
+Index : 82
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 27
+Y Coordinate : 337
+is Alive : 1
+-------------------
+
+
+Index : 83
+
+Notation : EA
+Class : 1936A-class Destroyer
+Gun : SK C/34 naval gun
+Impact : 0.08
+Angle Range : 20.00
+Min Angle : 2.06
+MaxAngle : 22.06
+Min Bullet Velocity : 221
+Max Bullet velocity : 240
+
+X Coordinate : 248
+Y Coordinate : 148
+is Alive : 1
+-------------------
+
+
+Index : 84
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 267
+Y Coordinate : 210
+is Alive : 1
+-------------------
+
+
+Index : 85
+
+Notation : EB
+Class : Gabbiano-class Corvette
+Gun : L/47 dual-purpose gun
+Impact : 0.06
+Angle Range : 30.00
+Min Angle : 41.31
+MaxAngle : 71.31
+Min Bullet Velocity : 19
+Max Bullet velocity : 199
+
+X Coordinate : 234
+Y Coordinate : 374
+is Alive : 1
+-------------------
+
+
+Index : 86
+
+Notation : EE
+Class : Japanese Kaibokan
+Gun : (4.7 inch) naval guns
+Impact : 0.04
+Angle Range : 70.00
+Min Angle : 10.82
+MaxAngle : 80.82
+Min Bullet Velocity : 36
+Max Bullet velocity : 54
+
+X Coordinate : 445
+Y Coordinate : 138
+is Alive : 1
+-------------------
+
+
+Index : 87
+
+Notation : EA
+Class : 1936A-class Destroyer
+Gun : SK C/34 naval gun
+Impact : 0.08
+Angle Range : 20.00
+Min Angle : 2.06
+MaxAngle : 22.06
+Min Bullet Velocity : 221
+Max Bullet velocity : 240
+
+X Coordinate : 255
+Y Coordinate : 105
+is Alive : 1
+-------------------
+
+
+Index : 88
+
+Notation : EC
+Class : Matsu-class Destroyer
+Gun : Type 89 dual-purpose gun
+Impact : 0.07
+Angle Range : 25.00
+Min Angle : 60.82
+MaxAngle : 85.82
+Min Bullet Velocity : 134
+Max Bullet velocity : 193
+
+X Coordinate : 348
+Y Coordinate : 443
+is Alive : 1
+-------------------
+
+
+Index : 89
+
+Notation : EB
+Class : Gabbiano-class Corvette
+Gun : L/47 dual-purpose gun
+Impact : 0.06
+Angle Range : 30.00
+Min Angle : 41.31
+MaxAngle : 71.31
+Min Bullet Velocity : 19
+Max Bullet velocity : 199
+
+X Coordinate : 370
+Y Coordinate : 233
+is Alive : 1
+-------------------
+
+
+Index : 90
+
+Notation : EC
+Class : Matsu-class Destroyer
+Gun : Type 89 dual-purpose gun
+Impact : 0.07
+Angle Range : 25.00
+Min Angle : 60.82
+MaxAngle : 85.82
+Min Bullet Velocity : 134
+Max Bullet velocity : 193
+
+X Coordinate : 404
+Y Coordinate : 229
+is Alive : 1
+-------------------
+
+
+Index : 91
+
+Notation : EC
+Class : Matsu-class Destroyer
+Gun : Type 89 dual-purpose gun
+Impact : 0.07
+Angle Range : 25.00
+Min Angle : 60.82
+MaxAngle : 85.82
+Min Bullet Velocity : 134
+Max Bullet velocity : 193
+
+X Coordinate : 461
+Y Coordinate : 201
+is Alive : 1
+-------------------
+
+
+Index : 92
+
+Notation : EE
+Class : Japanese Kaibokan
+Gun : (4.7 inch) naval guns
+Impact : 0.04
+Angle Range : 70.00
+Min Angle : 10.82
+MaxAngle : 80.82
+Min Bullet Velocity : 36
+Max Bullet velocity : 54
+
+X Coordinate : 239
+Y Coordinate : 228
+is Alive : 1
+-------------------
+
+
+Index : 93
+
+Notation : EA
+Class : 1936A-class Destroyer
+Gun : SK C/34 naval gun
+Impact : 0.08
+Angle Range : 20.00
+Min Angle : 2.06
+MaxAngle : 22.06
+Min Bullet Velocity : 221
+Max Bullet velocity : 240
+
+X Coordinate : 406
+Y Coordinate : 222
+is Alive : 1
+-------------------
+
+
+Index : 94
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 67
+Y Coordinate : 236
+is Alive : 1
+-------------------
+
+
+Index : 95
+
+Notation : EB
+Class : Gabbiano-class Corvette
+Gun : L/47 dual-purpose gun
+Impact : 0.06
+Angle Range : 30.00
+Min Angle : 41.31
+MaxAngle : 71.31
+Min Bullet Velocity : 19
+Max Bullet velocity : 199
+
+X Coordinate : 131
+Y Coordinate : 470
+is Alive : 1
+-------------------
+
+
+Index : 96
+
+Notation : EA
+Class : 1936A-class Destroyer
+Gun : SK C/34 naval gun
+Impact : 0.08
+Angle Range : 20.00
+Min Angle : 2.06
+MaxAngle : 22.06
+Min Bullet Velocity : 221
+Max Bullet velocity : 240
+
+X Coordinate : 177
+Y Coordinate : 414
+is Alive : 1
+-------------------
+
+
+Index : 97
+
+Notation : EE
+Class : Japanese Kaibokan
+Gun : (4.7 inch) naval guns
+Impact : 0.04
+Angle Range : 70.00
+Min Angle : 10.82
+MaxAngle : 80.82
+Min Bullet Velocity : 36
+Max Bullet velocity : 54
+
+X Coordinate : 85
+Y Coordinate : 415
+is Alive : 1
+-------------------
+
+
+Index : 98
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+X Coordinate : 489
+Y Coordinate : 8
+is Alive : 1
+-------------------
+
+
+Index : 99
+
+Notation : EE
+Class : Japanese Kaibokan
+Gun : (4.7 inch) naval guns
+Impact : 0.04
+Angle Range : 70.00
+Min Angle : 10.82
+MaxAngle : 80.82
+Min Bullet Velocity : 36
+Max Bullet velocity : 54
+
+X Coordinate : 140
+Y Coordinate : 379
+is Alive : 1
+-------------------
+
+
+Index : 100
+
+Notation : EA
+Class : 1936A-class Destroyer
+Gun : SK C/34 naval gun
+Impact : 0.08
+Angle Range : 20.00
+Min Angle : 2.06
+MaxAngle : 22.06
+Min Bullet Velocity : 221
+Max Bullet velocity : 240
+
+X Coordinate : 101
+Y Coordinate : 28
+is Alive : 1
+-------------------
+
+

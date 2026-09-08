@@ -1,0 +1,55 @@
+Notation : EA
+Class : 1936A-class Destroyer
+Gun : SK C/34 naval gun
+Impact : 0.08
+Angle Range : 20.00
+Min Angle : 2.06
+MaxAngle : 22.06
+Min Bullet Velocity : 221
+Max Bullet velocity : 240
+
+
+Notation : EB
+Class : Gabbiano-class Corvette
+Gun : L/47 dual-purpose gun
+Impact : 0.06
+Angle Range : 30.00
+Min Angle : 41.31
+MaxAngle : 71.31
+Min Bullet Velocity : 19
+Max Bullet velocity : 199
+
+
+Notation : EC
+Class : Matsu-class Destroyer
+Gun : Type 89 dual-purpose gun
+Impact : 0.07
+Angle Range : 25.00
+Min Angle : 60.82
+MaxAngle : 85.82
+Min Bullet Velocity : 134
+Max Bullet velocity : 193
+
+
+Notation : ED
+Class : F-class Escort Ships
+Gun : SK c/32 naval gun
+Impact : 0.05
+Angle Range : 50.00
+Min Angle : 12.89
+MaxAngle : 62.89
+Min Bullet Velocity : 2
+Max Bullet velocity : 15
+
+
+Notation : EE
+Class : Japanese Kaibokan
+Gun : (4.7 inch) naval guns
+Impact : 0.04
+Angle Range : 70.00
+Min Angle : 10.82
+MaxAngle : 80.82
+Min Bullet Velocity : 36
+Max Bullet velocity : 54
+
+

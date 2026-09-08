@@ -1,0 +1,1115 @@
+========== INITIAL BATTLEFIELD CONDITIONS ==========
+
+Simulation Mode : 2
+Canvas Size : 500 x 500
+Number of Escort Ships : 100
+
+--- Battleship ---
+Name : USS Iowa (BB-61)
+Notation : U
+Gun : 50-caliber Mark 7 gun
+Max Shell Velocity : 200 m/s
+Max Attack Range : 4077.47
+
+--- Escort Ships ---
+
+Escort #1
+  Type : EC (Matsu-class Destroyer)
+  Gun : Type 89 dual-purpose gun
+  Position : (283, 296)
+  Impact Power : 0.07
+  Angle Range : 60.82 - 85.82 degrees
+  Velocity Range : 134 - 193 m/s
+  Max Attack Range : 3232.90
+  Min Attack Range : 266.35
+  Status : Alive
+
+Escort #2
+  Type : EC (Matsu-class Destroyer)
+  Gun : Type 89 dual-purpose gun
+  Position : (403, 156)
+  Impact Power : 0.07
+  Angle Range : 60.82 - 85.82 degrees
+  Velocity Range : 134 - 193 m/s
+  Max Attack Range : 3232.90
+  Min Attack Range : 266.35
+  Status : Alive
+
+Escort #3
+  Type : EC (Matsu-class Destroyer)
+  Gun : Type 89 dual-purpose gun
+  Position : (11, 450)
+  Impact Power : 0.07
+  Angle Range : 60.82 - 85.82 degrees
+  Velocity Range : 134 - 193 m/s
+  Max Attack Range : 3232.90
+  Min Attack Range : 266.35
+  Status : Alive
+
+Escort #4
+  Type : EE (Japanese Kaibokan)
+  Gun : (4.7 inch) naval guns
+  Position : (257, 151)
+  Impact Power : 0.04
+  Angle Range : 10.82 - 80.82 degrees
+  Velocity Range : 36 - 54 m/s
+  Max Attack Range : 297.25
+  Min Attack Range : 41.60
+  Status : Alive
+
+Escort #5
+  Type : EE (Japanese Kaibokan)
+  Gun : (4.7 inch) naval guns
+  Position : (99, 499)
+  Impact Power : 0.04
+  Angle Range : 10.82 - 80.82 degrees
+  Velocity Range : 36 - 54 m/s
+  Max Attack Range : 297.25
+  Min Attack Range : 41.60
+  Status : Alive
+
+Escort #6
+  Type : EE (Japanese Kaibokan)
+  Gun : (4.7 inch) naval guns
+  Position : (186, 395)
+  Impact Power : 0.04
+  Angle Range : 10.82 - 80.82 degrees
+  Velocity Range : 36 - 54 m/s
+  Max Attack Range : 297.25
+  Min Attack Range : 41.60
+  Status : Alive
+
+Escort #7
+  Type : EE (Japanese Kaibokan)
+  Gun : (4.7 inch) naval guns
+  Position : (166, 500)
+  Impact Power : 0.04
+  Angle Range : 10.82 - 80.82 degrees
+  Velocity Range : 36 - 54 m/s
+  Max Attack Range : 297.25
+  Min Attack Range : 41.60
+  Status : Alive
+
+Escort #8
+  Type : EE (Japanese Kaibokan)
+  Gun : (4.7 inch) naval guns
+  Position : (260, 474)
+  Impact Power : 0.04
+  Angle Range : 10.82 - 80.82 degrees
+  Velocity Range : 36 - 54 m/s
+  Max Attack Range : 297.25
+  Min Attack Range : 41.60
+  Status : Alive
+
+Escort #9
+  Type : EB (Gabbiano-class Corvette)
+  Gun : L/47 dual-purpose gun
+  Position : (365, 207)
+  Impact Power : 0.06
+  Angle Range : 41.31 - 71.31 degrees
+  Velocity Range : 19 - 199 m/s
+  Max Attack Range : 4036.80
+  Min Attack Range : 22.34
+  Status : Alive
+
+Escort #10
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (373, 449)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #11
+  Type : EB (Gabbiano-class Corvette)
+  Gun : L/47 dual-purpose gun
+  Position : (439, 232)
+  Impact Power : 0.06
+  Angle Range : 41.31 - 71.31 degrees
+  Velocity Range : 19 - 199 m/s
+  Max Attack Range : 4036.80
+  Min Attack Range : 22.34
+  Status : Alive
+
+Escort #12
+  Type : EB (Gabbiano-class Corvette)
+  Gun : L/47 dual-purpose gun
+  Position : (334, 134)
+  Impact Power : 0.06
+  Angle Range : 41.31 - 71.31 degrees
+  Velocity Range : 19 - 199 m/s
+  Max Attack Range : 4036.80
+  Min Attack Range : 22.34
+  Status : Alive
+
+Escort #13
+  Type : EB (Gabbiano-class Corvette)
+  Gun : L/47 dual-purpose gun
+  Position : (186, 145)
+  Impact Power : 0.06
+  Angle Range : 41.31 - 71.31 degrees
+  Velocity Range : 19 - 199 m/s
+  Max Attack Range : 4036.80
+  Min Attack Range : 22.34
+  Status : Alive
+
+Escort #14
+  Type : EC (Matsu-class Destroyer)
+  Gun : Type 89 dual-purpose gun
+  Position : (447, 149)
+  Impact Power : 0.07
+  Angle Range : 60.82 - 85.82 degrees
+  Velocity Range : 134 - 193 m/s
+  Max Attack Range : 3232.90
+  Min Attack Range : 266.35
+  Status : Alive
+
+Escort #15
+  Type : EE (Japanese Kaibokan)
+  Gun : (4.7 inch) naval guns
+  Position : (147, 248)
+  Impact Power : 0.04
+  Angle Range : 10.82 - 80.82 degrees
+  Velocity Range : 36 - 54 m/s
+  Max Attack Range : 297.25
+  Min Attack Range : 41.60
+  Status : Alive
+
+Escort #16
+  Type : EA (1936A-class Destroyer)
+  Gun : SK C/34 naval gun
+  Position : (362, 181)
+  Impact Power : 0.08
+  Angle Range : 2.06 - 22.06 degrees
+  Velocity Range : 221 - 240 m/s
+  Max Attack Range : 4087.84
+  Min Attack Range : 358.02
+  Status : Alive
+
+Escort #17
+  Type : EE (Japanese Kaibokan)
+  Gun : (4.7 inch) naval guns
+  Position : (397, 347)
+  Impact Power : 0.04
+  Angle Range : 10.82 - 80.82 degrees
+  Velocity Range : 36 - 54 m/s
+  Max Attack Range : 297.25
+  Min Attack Range : 41.60
+  Status : Alive
+
+Escort #18
+  Type : EC (Matsu-class Destroyer)
+  Gun : Type 89 dual-purpose gun
+  Position : (29, 353)
+  Impact Power : 0.07
+  Angle Range : 60.82 - 85.82 degrees
+  Velocity Range : 134 - 193 m/s
+  Max Attack Range : 3232.90
+  Min Attack Range : 266.35
+  Status : Alive
+
+Escort #19
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (439, 218)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #20
+  Type : EE (Japanese Kaibokan)
+  Gun : (4.7 inch) naval guns
+  Position : (314, 90)
+  Impact Power : 0.04
+  Angle Range : 10.82 - 80.82 degrees
+  Velocity Range : 36 - 54 m/s
+  Max Attack Range : 297.25
+  Min Attack Range : 41.60
+  Status : Alive
+
+Escort #21
+  Type : EB (Gabbiano-class Corvette)
+  Gun : L/47 dual-purpose gun
+  Position : (370, 275)
+  Impact Power : 0.06
+  Angle Range : 41.31 - 71.31 degrees
+  Velocity Range : 19 - 199 m/s
+  Max Attack Range : 4036.80
+  Min Attack Range : 22.34
+  Status : Alive
+
+Escort #22
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (468, 355)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #23
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (222, 40)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #24
+  Type : EE (Japanese Kaibokan)
+  Gun : (4.7 inch) naval guns
+  Position : (172, 488)
+  Impact Power : 0.04
+  Angle Range : 10.82 - 80.82 degrees
+  Velocity Range : 36 - 54 m/s
+  Max Attack Range : 297.25
+  Min Attack Range : 41.60
+  Status : Alive
+
+Escort #25
+  Type : EE (Japanese Kaibokan)
+  Gun : (4.7 inch) naval guns
+  Position : (274, 134)
+  Impact Power : 0.04
+  Angle Range : 10.82 - 80.82 degrees
+  Velocity Range : 36 - 54 m/s
+  Max Attack Range : 297.25
+  Min Attack Range : 41.60
+  Status : Alive
+
+Escort #26
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (366, 242)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #27
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (106, 138)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #28
+  Type : EC (Matsu-class Destroyer)
+  Gun : Type 89 dual-purpose gun
+  Position : (93, 414)
+  Impact Power : 0.07
+  Angle Range : 60.82 - 85.82 degrees
+  Velocity Range : 134 - 193 m/s
+  Max Attack Range : 3232.90
+  Min Attack Range : 266.35
+  Status : Alive
+
+Escort #29
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (300, 353)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #30
+  Type : EA (1936A-class Destroyer)
+  Gun : SK C/34 naval gun
+  Position : (213, 413)
+  Impact Power : 0.08
+  Angle Range : 2.06 - 22.06 degrees
+  Velocity Range : 221 - 240 m/s
+  Max Attack Range : 4087.84
+  Min Attack Range : 358.02
+  Status : Alive
+
+Escort #31
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (75, 282)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #32
+  Type : EB (Gabbiano-class Corvette)
+  Gun : L/47 dual-purpose gun
+  Position : (169, 249)
+  Impact Power : 0.06
+  Angle Range : 41.31 - 71.31 degrees
+  Velocity Range : 19 - 199 m/s
+  Max Attack Range : 4036.80
+  Min Attack Range : 22.34
+  Status : Alive
+
+Escort #33
+  Type : EE (Japanese Kaibokan)
+  Gun : (4.7 inch) naval guns
+  Position : (144, 218)
+  Impact Power : 0.04
+  Angle Range : 10.82 - 80.82 degrees
+  Velocity Range : 36 - 54 m/s
+  Max Attack Range : 297.25
+  Min Attack Range : 41.60
+  Status : Alive
+
+Escort #34
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (10, 390)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #35
+  Type : EC (Matsu-class Destroyer)
+  Gun : Type 89 dual-purpose gun
+  Position : (25, 410)
+  Impact Power : 0.07
+  Angle Range : 60.82 - 85.82 degrees
+  Velocity Range : 134 - 193 m/s
+  Max Attack Range : 3232.90
+  Min Attack Range : 266.35
+  Status : Alive
+
+Escort #36
+  Type : EC (Matsu-class Destroyer)
+  Gun : Type 89 dual-purpose gun
+  Position : (34, 276)
+  Impact Power : 0.07
+  Angle Range : 60.82 - 85.82 degrees
+  Velocity Range : 134 - 193 m/s
+  Max Attack Range : 3232.90
+  Min Attack Range : 266.35
+  Status : Alive
+
+Escort #37
+  Type : EC (Matsu-class Destroyer)
+  Gun : Type 89 dual-purpose gun
+  Position : (225, 382)
+  Impact Power : 0.07
+  Angle Range : 60.82 - 85.82 degrees
+  Velocity Range : 134 - 193 m/s
+  Max Attack Range : 3232.90
+  Min Attack Range : 266.35
+  Status : Alive
+
+Escort #38
+  Type : EA (1936A-class Destroyer)
+  Gun : SK C/34 naval gun
+  Position : (7, 221)
+  Impact Power : 0.08
+  Angle Range : 2.06 - 22.06 degrees
+  Velocity Range : 221 - 240 m/s
+  Max Attack Range : 4087.84
+  Min Attack Range : 358.02
+  Status : Alive
+
+Escort #39
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (143, 267)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #40
+  Type : EC (Matsu-class Destroyer)
+  Gun : Type 89 dual-purpose gun
+  Position : (243, 481)
+  Impact Power : 0.07
+  Angle Range : 60.82 - 85.82 degrees
+  Velocity Range : 134 - 193 m/s
+  Max Attack Range : 3232.90
+  Min Attack Range : 266.35
+  Status : Alive
+
+Escort #41
+  Type : EE (Japanese Kaibokan)
+  Gun : (4.7 inch) naval guns
+  Position : (180, 302)
+  Impact Power : 0.04
+  Angle Range : 10.82 - 80.82 degrees
+  Velocity Range : 36 - 54 m/s
+  Max Attack Range : 297.25
+  Min Attack Range : 41.60
+  Status : Alive
+
+Escort #42
+  Type : EA (1936A-class Destroyer)
+  Gun : SK C/34 naval gun
+  Position : (138, 218)
+  Impact Power : 0.08
+  Angle Range : 2.06 - 22.06 degrees
+  Velocity Range : 221 - 240 m/s
+  Max Attack Range : 4087.84
+  Min Attack Range : 358.02
+  Status : Alive
+
+Escort #43
+  Type : EC (Matsu-class Destroyer)
+  Gun : Type 89 dual-purpose gun
+  Position : (451, 362)
+  Impact Power : 0.07
+  Angle Range : 60.82 - 85.82 degrees
+  Velocity Range : 134 - 193 m/s
+  Max Attack Range : 3232.90
+  Min Attack Range : 266.35
+  Status : Alive
+
+Escort #44
+  Type : EA (1936A-class Destroyer)
+  Gun : SK C/34 naval gun
+  Position : (304, 372)
+  Impact Power : 0.08
+  Angle Range : 2.06 - 22.06 degrees
+  Velocity Range : 221 - 240 m/s
+  Max Attack Range : 4087.84
+  Min Attack Range : 358.02
+  Status : Alive
+
+Escort #45
+  Type : EA (1936A-class Destroyer)
+  Gun : SK C/34 naval gun
+  Position : (391, 143)
+  Impact Power : 0.08
+  Angle Range : 2.06 - 22.06 degrees
+  Velocity Range : 221 - 240 m/s
+  Max Attack Range : 4087.84
+  Min Attack Range : 358.02
+  Status : Alive
+
+Escort #46
+  Type : EB (Gabbiano-class Corvette)
+  Gun : L/47 dual-purpose gun
+  Position : (358, 177)
+  Impact Power : 0.06
+  Angle Range : 41.31 - 71.31 degrees
+  Velocity Range : 19 - 199 m/s
+  Max Attack Range : 4036.80
+  Min Attack Range : 22.34
+  Status : Alive
+
+Escort #47
+  Type : EE (Japanese Kaibokan)
+  Gun : (4.7 inch) naval guns
+  Position : (321, 402)
+  Impact Power : 0.04
+  Angle Range : 10.82 - 80.82 degrees
+  Velocity Range : 36 - 54 m/s
+  Max Attack Range : 297.25
+  Min Attack Range : 41.60
+  Status : Alive
+
+Escort #48
+  Type : EA (1936A-class Destroyer)
+  Gun : SK C/34 naval gun
+  Position : (415, 156)
+  Impact Power : 0.08
+  Angle Range : 2.06 - 22.06 degrees
+  Velocity Range : 221 - 240 m/s
+  Max Attack Range : 4087.84
+  Min Attack Range : 358.02
+  Status : Alive
+
+Escort #49
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (422, 299)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #50
+  Type : EE (Japanese Kaibokan)
+  Gun : (4.7 inch) naval guns
+  Position : (28, 289)
+  Impact Power : 0.04
+  Angle Range : 10.82 - 80.82 degrees
+  Velocity Range : 36 - 54 m/s
+  Max Attack Range : 297.25
+  Min Attack Range : 41.60
+  Status : Alive
+
+Escort #51
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (46, 469)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #52
+  Type : EE (Japanese Kaibokan)
+  Gun : (4.7 inch) naval guns
+  Position : (347, 106)
+  Impact Power : 0.04
+  Angle Range : 10.82 - 80.82 degrees
+  Velocity Range : 36 - 54 m/s
+  Max Attack Range : 297.25
+  Min Attack Range : 41.60
+  Status : Alive
+
+Escort #53
+  Type : EB (Gabbiano-class Corvette)
+  Gun : L/47 dual-purpose gun
+  Position : (389, 56)
+  Impact Power : 0.06
+  Angle Range : 41.31 - 71.31 degrees
+  Velocity Range : 19 - 199 m/s
+  Max Attack Range : 4036.80
+  Min Attack Range : 22.34
+  Status : Alive
+
+Escort #54
+  Type : EA (1936A-class Destroyer)
+  Gun : SK C/34 naval gun
+  Position : (148, 107)
+  Impact Power : 0.08
+  Angle Range : 2.06 - 22.06 degrees
+  Velocity Range : 221 - 240 m/s
+  Max Attack Range : 4087.84
+  Min Attack Range : 358.02
+  Status : Alive
+
+Escort #55
+  Type : EA (1936A-class Destroyer)
+  Gun : SK C/34 naval gun
+  Position : (297, 498)
+  Impact Power : 0.08
+  Angle Range : 2.06 - 22.06 degrees
+  Velocity Range : 221 - 240 m/s
+  Max Attack Range : 4087.84
+  Min Attack Range : 358.02
+  Status : Alive
+
+Escort #56
+  Type : EA (1936A-class Destroyer)
+  Gun : SK C/34 naval gun
+  Position : (356, 356)
+  Impact Power : 0.08
+  Angle Range : 2.06 - 22.06 degrees
+  Velocity Range : 221 - 240 m/s
+  Max Attack Range : 4087.84
+  Min Attack Range : 358.02
+  Status : Alive
+
+Escort #57
+  Type : EA (1936A-class Destroyer)
+  Gun : SK C/34 naval gun
+  Position : (437, 423)
+  Impact Power : 0.08
+  Angle Range : 2.06 - 22.06 degrees
+  Velocity Range : 221 - 240 m/s
+  Max Attack Range : 4087.84
+  Min Attack Range : 358.02
+  Status : Alive
+
+Escort #58
+  Type : EA (1936A-class Destroyer)
+  Gun : SK C/34 naval gun
+  Position : (400, 83)
+  Impact Power : 0.08
+  Angle Range : 2.06 - 22.06 degrees
+  Velocity Range : 221 - 240 m/s
+  Max Attack Range : 4087.84
+  Min Attack Range : 358.02
+  Status : Alive
+
+Escort #59
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (330, 251)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #60
+  Type : EC (Matsu-class Destroyer)
+  Gun : Type 89 dual-purpose gun
+  Position : (273, 279)
+  Impact Power : 0.07
+  Angle Range : 60.82 - 85.82 degrees
+  Velocity Range : 134 - 193 m/s
+  Max Attack Range : 3232.90
+  Min Attack Range : 266.35
+  Status : Alive
+
+Escort #61
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (197, 326)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #62
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (169, 419)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #63
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (359, 53)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #64
+  Type : EA (1936A-class Destroyer)
+  Gun : SK C/34 naval gun
+  Position : (410, 201)
+  Impact Power : 0.08
+  Angle Range : 2.06 - 22.06 degrees
+  Velocity Range : 221 - 240 m/s
+  Max Attack Range : 4087.84
+  Min Attack Range : 358.02
+  Status : Alive
+
+Escort #65
+  Type : EB (Gabbiano-class Corvette)
+  Gun : L/47 dual-purpose gun
+  Position : (78, 244)
+  Impact Power : 0.06
+  Angle Range : 41.31 - 71.31 degrees
+  Velocity Range : 19 - 199 m/s
+  Max Attack Range : 4036.80
+  Min Attack Range : 22.34
+  Status : Alive
+
+Escort #66
+  Type : EC (Matsu-class Destroyer)
+  Gun : Type 89 dual-purpose gun
+  Position : (390, 100)
+  Impact Power : 0.07
+  Angle Range : 60.82 - 85.82 degrees
+  Velocity Range : 134 - 193 m/s
+  Max Attack Range : 3232.90
+  Min Attack Range : 266.35
+  Status : Alive
+
+Escort #67
+  Type : EB (Gabbiano-class Corvette)
+  Gun : L/47 dual-purpose gun
+  Position : (378, 36)
+  Impact Power : 0.06
+  Angle Range : 41.31 - 71.31 degrees
+  Velocity Range : 19 - 199 m/s
+  Max Attack Range : 4036.80
+  Min Attack Range : 22.34
+  Status : Alive
+
+Escort #68
+  Type : EA (1936A-class Destroyer)
+  Gun : SK C/34 naval gun
+  Position : (14, 182)
+  Impact Power : 0.08
+  Angle Range : 2.06 - 22.06 degrees
+  Velocity Range : 221 - 240 m/s
+  Max Attack Range : 4087.84
+  Min Attack Range : 358.02
+  Status : Alive
+
+Escort #69
+  Type : EA (1936A-class Destroyer)
+  Gun : SK C/34 naval gun
+  Position : (307, 258)
+  Impact Power : 0.08
+  Angle Range : 2.06 - 22.06 degrees
+  Velocity Range : 221 - 240 m/s
+  Max Attack Range : 4087.84
+  Min Attack Range : 358.02
+  Status : Alive
+
+Escort #70
+  Type : EB (Gabbiano-class Corvette)
+  Gun : L/47 dual-purpose gun
+  Position : (145, 31)
+  Impact Power : 0.06
+  Angle Range : 41.31 - 71.31 degrees
+  Velocity Range : 19 - 199 m/s
+  Max Attack Range : 4036.80
+  Min Attack Range : 22.34
+  Status : Alive
+
+Escort #71
+  Type : EB (Gabbiano-class Corvette)
+  Gun : L/47 dual-purpose gun
+  Position : (24, 475)
+  Impact Power : 0.06
+  Angle Range : 41.31 - 71.31 degrees
+  Velocity Range : 19 - 199 m/s
+  Max Attack Range : 4036.80
+  Min Attack Range : 22.34
+  Status : Alive
+
+Escort #72
+  Type : EA (1936A-class Destroyer)
+  Gun : SK C/34 naval gun
+  Position : (366, 390)
+  Impact Power : 0.08
+  Angle Range : 2.06 - 22.06 degrees
+  Velocity Range : 221 - 240 m/s
+  Max Attack Range : 4087.84
+  Min Attack Range : 358.02
+  Status : Alive
+
+Escort #73
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (312, 248)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #74
+  Type : EC (Matsu-class Destroyer)
+  Gun : Type 89 dual-purpose gun
+  Position : (61, 404)
+  Impact Power : 0.07
+  Angle Range : 60.82 - 85.82 degrees
+  Velocity Range : 134 - 193 m/s
+  Max Attack Range : 3232.90
+  Min Attack Range : 266.35
+  Status : Alive
+
+Escort #75
+  Type : EB (Gabbiano-class Corvette)
+  Gun : L/47 dual-purpose gun
+  Position : (418, 482)
+  Impact Power : 0.06
+  Angle Range : 41.31 - 71.31 degrees
+  Velocity Range : 19 - 199 m/s
+  Max Attack Range : 4036.80
+  Min Attack Range : 22.34
+  Status : Alive
+
+Escort #76
+  Type : EE (Japanese Kaibokan)
+  Gun : (4.7 inch) naval guns
+  Position : (18, 117)
+  Impact Power : 0.04
+  Angle Range : 10.82 - 80.82 degrees
+  Velocity Range : 36 - 54 m/s
+  Max Attack Range : 297.25
+  Min Attack Range : 41.60
+  Status : Alive
+
+Escort #77
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (220, 241)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #78
+  Type : EC (Matsu-class Destroyer)
+  Gun : Type 89 dual-purpose gun
+  Position : (91, 256)
+  Impact Power : 0.07
+  Angle Range : 60.82 - 85.82 degrees
+  Velocity Range : 134 - 193 m/s
+  Max Attack Range : 3232.90
+  Min Attack Range : 266.35
+  Status : Alive
+
+Escort #79
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (291, 309)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #80
+  Type : EE (Japanese Kaibokan)
+  Gun : (4.7 inch) naval guns
+  Position : (496, 454)
+  Impact Power : 0.04
+  Angle Range : 10.82 - 80.82 degrees
+  Velocity Range : 36 - 54 m/s
+  Max Attack Range : 297.25
+  Min Attack Range : 41.60
+  Status : Alive
+
+Escort #81
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (226, 225)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #82
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (27, 337)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #83
+  Type : EA (1936A-class Destroyer)
+  Gun : SK C/34 naval gun
+  Position : (248, 148)
+  Impact Power : 0.08
+  Angle Range : 2.06 - 22.06 degrees
+  Velocity Range : 221 - 240 m/s
+  Max Attack Range : 4087.84
+  Min Attack Range : 358.02
+  Status : Alive
+
+Escort #84
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (267, 210)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #85
+  Type : EB (Gabbiano-class Corvette)
+  Gun : L/47 dual-purpose gun
+  Position : (234, 374)
+  Impact Power : 0.06
+  Angle Range : 41.31 - 71.31 degrees
+  Velocity Range : 19 - 199 m/s
+  Max Attack Range : 4036.80
+  Min Attack Range : 22.34
+  Status : Alive
+
+Escort #86
+  Type : EE (Japanese Kaibokan)
+  Gun : (4.7 inch) naval guns
+  Position : (445, 138)
+  Impact Power : 0.04
+  Angle Range : 10.82 - 80.82 degrees
+  Velocity Range : 36 - 54 m/s
+  Max Attack Range : 297.25
+  Min Attack Range : 41.60
+  Status : Alive
+
+Escort #87
+  Type : EA (1936A-class Destroyer)
+  Gun : SK C/34 naval gun
+  Position : (255, 105)
+  Impact Power : 0.08
+  Angle Range : 2.06 - 22.06 degrees
+  Velocity Range : 221 - 240 m/s
+  Max Attack Range : 4087.84
+  Min Attack Range : 358.02
+  Status : Alive
+
+Escort #88
+  Type : EC (Matsu-class Destroyer)
+  Gun : Type 89 dual-purpose gun
+  Position : (348, 443)
+  Impact Power : 0.07
+  Angle Range : 60.82 - 85.82 degrees
+  Velocity Range : 134 - 193 m/s
+  Max Attack Range : 3232.90
+  Min Attack Range : 266.35
+  Status : Alive
+
+Escort #89
+  Type : EB (Gabbiano-class Corvette)
+  Gun : L/47 dual-purpose gun
+  Position : (370, 233)
+  Impact Power : 0.06
+  Angle Range : 41.31 - 71.31 degrees
+  Velocity Range : 19 - 199 m/s
+  Max Attack Range : 4036.80
+  Min Attack Range : 22.34
+  Status : Alive
+
+Escort #90
+  Type : EC (Matsu-class Destroyer)
+  Gun : Type 89 dual-purpose gun
+  Position : (404, 229)
+  Impact Power : 0.07
+  Angle Range : 60.82 - 85.82 degrees
+  Velocity Range : 134 - 193 m/s
+  Max Attack Range : 3232.90
+  Min Attack Range : 266.35
+  Status : Alive
+
+Escort #91
+  Type : EC (Matsu-class Destroyer)
+  Gun : Type 89 dual-purpose gun
+  Position : (461, 201)
+  Impact Power : 0.07
+  Angle Range : 60.82 - 85.82 degrees
+  Velocity Range : 134 - 193 m/s
+  Max Attack Range : 3232.90
+  Min Attack Range : 266.35
+  Status : Alive
+
+Escort #92
+  Type : EE (Japanese Kaibokan)
+  Gun : (4.7 inch) naval guns
+  Position : (239, 228)
+  Impact Power : 0.04
+  Angle Range : 10.82 - 80.82 degrees
+  Velocity Range : 36 - 54 m/s
+  Max Attack Range : 297.25
+  Min Attack Range : 41.60
+  Status : Alive
+
+Escort #93
+  Type : EA (1936A-class Destroyer)
+  Gun : SK C/34 naval gun
+  Position : (406, 222)
+  Impact Power : 0.08
+  Angle Range : 2.06 - 22.06 degrees
+  Velocity Range : 221 - 240 m/s
+  Max Attack Range : 4087.84
+  Min Attack Range : 358.02
+  Status : Alive
+
+Escort #94
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (67, 236)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #95
+  Type : EB (Gabbiano-class Corvette)
+  Gun : L/47 dual-purpose gun
+  Position : (131, 470)
+  Impact Power : 0.06
+  Angle Range : 41.31 - 71.31 degrees
+  Velocity Range : 19 - 199 m/s
+  Max Attack Range : 4036.80
+  Min Attack Range : 22.34
+  Status : Alive
+
+Escort #96
+  Type : EA (1936A-class Destroyer)
+  Gun : SK C/34 naval gun
+  Position : (177, 414)
+  Impact Power : 0.08
+  Angle Range : 2.06 - 22.06 degrees
+  Velocity Range : 221 - 240 m/s
+  Max Attack Range : 4087.84
+  Min Attack Range : 358.02
+  Status : Alive
+
+Escort #97
+  Type : EE (Japanese Kaibokan)
+  Gun : (4.7 inch) naval guns
+  Position : (85, 415)
+  Impact Power : 0.04
+  Angle Range : 10.82 - 80.82 degrees
+  Velocity Range : 36 - 54 m/s
+  Max Attack Range : 297.25
+  Min Attack Range : 41.60
+  Status : Alive
+
+Escort #98
+  Type : ED (F-class Escort Ships)
+  Gun : SK c/32 naval gun
+  Position : (489, 8)
+  Impact Power : 0.05
+  Angle Range : 12.89 - 62.89 degrees
+  Velocity Range : 2 - 15 m/s
+  Max Attack Range : 22.94
+  Min Attack Range : 0.18
+  Status : Alive
+
+Escort #99
+  Type : EE (Japanese Kaibokan)
+  Gun : (4.7 inch) naval guns
+  Position : (140, 379)
+  Impact Power : 0.04
+  Angle Range : 10.82 - 80.82 degrees
+  Velocity Range : 36 - 54 m/s
+  Max Attack Range : 297.25
+  Min Attack Range : 41.60
+  Status : Alive
+
+Escort #100
+  Type : EA (1936A-class Destroyer)
+  Gun : SK C/34 naval gun
+  Position : (101, 28)
+  Impact Power : 0.08
+  Angle Range : 2.06 - 22.06 degrees
+  Velocity Range : 221 - 240 m/s
+  Max Attack Range : 4087.84
+  Min Attack Range : 358.02
+  Status : Alive
+
