@@ -1,0 +1,40 @@
+========== SIMULATION 2 RESULTS (Part 2-B) ==========
+
+---------- Iteration 1 ----------
+B Position : (4188, 279)
+B Gun Min Angle : 0.0 degrees
+
+B's Strategic Attack Order : [ E#99 E#4 E#96 E#36 E#1 E#21 E#80 E#16 E#51 E#45 E#15 E#20 E#35 E#89 E#67 E#17 E#5 E#68 E#34 E#100 E#9 E#12 E#2 E#92 E#55 E#42 E#39 E#65 E#6 E#11 E#63 E#33 E#22 E#56 E#95 E#14 E#83 E#25 E#77 E#50 E#13 E#31 E#66 E#58 E#24 E#84 E#47 E#72 E#41 E#57 E#48 E#75 E#43 E#73 E#76 E#85 E#70 E#94 E#7 E#30 E#49 E#40 E#64 E#29 E#32 E#26 E#46 E#91 E#74 ]
+
+OUTCOME : Battleship SUNK by Escort #36!
+Total Damage taken before sinking: 101.00%
+
+--- Escorts Destroyed by B: 9 ---
+  -> Destroyed Escort #99 | Fired at: 0.0s | Impact at: 21.2s
+  -> Destroyed Escort #4 | Fired at: 2.0s | Impact at: 11.2s
+  -> Destroyed Escort #96 | Fired at: 4.0s | Impact at: 27.8s
+  -> Destroyed Escort #36 | Fired at: 6.0s | Impact at: 31.1s
+  -> Destroyed Escort #1 | Fired at: 8.0s | Impact at: 33.3s
+  -> Destroyed Escort #21 | Fired at: 10.0s | Impact at: 23.3s
+  -> Destroyed Escort #80 | Fired at: 12.0s | Impact at: 25.6s
+  -> Destroyed Escort #16 | Fired at: 14.0s | Impact at: 41.5s
+  -> Destroyed Escort #51 | Fired at: 16.0s | Impact at: 30.5s
+
+--- Number of bullets that hit B in this iteration: 14 ---
+  -> Hit by Escort #4 | Fired at: 0.00s | Impact at: 7.99s | Damage Caused: 7.0%
+  -> Hit by Escort #21 | Fired at: 0.00s | Impact at: 11.51s | Damage Caused: 7.0%
+  -> Hit by Escort #4 | Fired at: 3.96s | Impact at: 11.95s | Damage Caused: 7.0%
+  -> Hit by Escort #5 | Fired at: 0.00s | Impact at: 12.49s | Damage Caused: 6.0%
+  -> Hit by Escort #51 | Fired at: 0.00s | Impact at: 12.57s | Damage Caused: 7.0%
+  -> Hit by Escort #36 | Fired at: 0.00s | Impact at: 13.39s | Damage Caused: 8.0%
+  -> Hit by Escort #15 | Fired at: 0.00s | Impact at: 13.46s | Damage Caused: 7.0%
+  -> Hit by Escort #1 | Fired at: 0.00s | Impact at: 13.70s | Damage Caused: 8.0%
+  -> Hit by Escort #21 | Fired at: 3.96s | Impact at: 15.48s | Damage Caused: 7.0%
+  -> Hit by Escort #4 | Fired at: 7.93s | Impact at: 15.92s | Damage Caused: 7.0%
+  -> Hit by Escort #17 | Fired at: 0.00s | Impact at: 16.02s | Damage Caused: 7.0%
+  -> Hit by Escort #16 | Fired at: 0.00s | Impact at: 16.48s | Damage Caused: 8.0%
+  -> Hit by Escort #51 | Fired at: 3.96s | Impact at: 16.53s | Damage Caused: 7.0%
+  -> Hit by Escort #36 | Fired at: 3.35s | Impact at: 16.74s | Damage Caused: 8.0%
+
+Step Battle Duration: 16.7372 s
+
