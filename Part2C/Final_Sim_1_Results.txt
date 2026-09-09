@@ -1,0 +1,44 @@
+========== SIMULATION 1 RESULTS (Part 2-C) ==========
+B Ship Gamma (Degradation) : 0.00388
+
+---------- Iteration 1 ----------
+B Position : (2739, 196)
+B Gun Min Angle : 0.0 degrees
+
+B's Attack Target Sequence (Ordered) : [ E#93 E#76 E#82 ]
+
+OUTCOME : Battleship SUNK by Escort #16!
+Total Damage taken before sinking: 107.77%
+
+--- [ BATTESHIP'S HITS ON ESCORTS ] ---
+  Time:   6.09s | Hit E#93 | Damage Done: 100.00% [FATAL! E Ship Destroyed]
+  Time:   9.93s | Hit E#76 | Damage Done: 99.61% 
+  Time:  14.93s | Hit E#76 | Damage Done: 99.23% [FATAL! E Ship Destroyed]
+  Time:  19.98s | Hit E#82 | Damage Done: 98.84% 
+
+--- [ ESCORTS' HITS ON BATTLESHIP ] ---
+  Time:   3.93s | Fired By E#76 | Damage Taken:  4.00%
+  Time:   4.07s | Fired By E#82 | Damage Taken:  4.00%
+  Time:   7.43s | Fired By E#93 | Damage Taken:  8.00%
+  Time:   8.84s | Fired By E#39 | Damage Taken:  6.00%
+  Time:   9.11s | Fired By E#76 | Damage Taken:  3.84%
+  Time:   9.25s | Fired By E#82 | Damage Taken:  3.84%
+  Time:  11.72s | Fired By E#93 | Damage Taken:  7.86%
+  Time:  14.29s | Fired By E#76 | Damage Taken:  3.69%
+  Time:  14.43s | Fired By E#82 | Damage Taken:  3.69%
+  Time:  14.84s | Fired By E#39 | Damage Taken:  5.90%
+  Time:  18.19s | Fired By E#1 | Damage Taken:  8.00%
+  Time:  18.94s | Fired By E#60 | Damage Taken:  8.00%
+  Time:  19.05s | Fired By E#16 | Damage Taken:  8.00%
+  Time:  19.62s | Fired By E#82 | Damage Taken:  3.55%
+  Time:  20.84s | Fired By E#39 | Damage Taken:  5.81%
+  Time:  22.48s | Fired By E#1 | Damage Taken:  7.86%
+  Time:  23.23s | Fired By E#60 | Damage Taken:  7.86%
+  Time:  23.33s | Fired By E#16 | Damage Taken:  7.86%
+
+Statistics:
+  -> Total Escorts Destroyed so far: 2 / 100
+  -> B Ship Bullets Landed on Target: 4
+  -> E Ship Bullets Landed on B: 18
+  -> Iteration Battle Duration: 23.3327 s
+
